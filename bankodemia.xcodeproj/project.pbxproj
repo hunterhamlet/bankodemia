@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E0DAB9DB27C084EF004641EE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E0E24F1027BEFAF400E629F8 /* bankodemia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bankodemia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E24F1327BEFAF400E629F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0E24F1527BEFAF400E629F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,9 +38,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0DAB9D727C08482004641EE /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E0DAB9D827C08494004641EE /* Login */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		E0DAB9D827C08494004641EE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E0DAB9DA27C084A5004641EE /* ViewModel */,
+				E0DAB9D927C0849A004641EE /* View */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		E0DAB9D927C0849A004641EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E0DAB9DA27C084A5004641EE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
 		E0E24F0727BEFAF400E629F8 = {
 			isa = PBXGroup;
 			children = (
+				E0DAB9DB27C084EF004641EE /* README.md */,
 				E0E24F1227BEFAF400E629F8 /* bankodemia */,
 				E0E24F1127BEFAF400E629F8 /* Products */,
 			);
@@ -56,6 +89,7 @@
 		E0E24F1227BEFAF400E629F8 /* bankodemia */ = {
 			isa = PBXGroup;
 			children = (
+				E0DAB9D727C08482004641EE /* Modules */,
 				E0E24F1327BEFAF400E629F8 /* AppDelegate.swift */,
 				E0E24F1527BEFAF400E629F8 /* SceneDelegate.swift */,
 				E0E24F1727BEFAF400E629F8 /* ViewController.swift */,

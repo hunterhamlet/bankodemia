@@ -86,9 +86,9 @@ To solve bugs, we'll use:
 >> fix: Solve problems with login flow.
 
 For banch's Structures We can use "git flow". For more information here are some links:
+
 * [Atlassian](https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow)
 * [Cheatsheet](http://danielkummer.github.io/git-flow-cheatsheet/index.html)
-
 
 # Widgets guidelines
 

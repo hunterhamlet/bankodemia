@@ -94,7 +94,7 @@ For banch's Structures We can use "git flow". For more information here are some
 
 When we program a new widget (UIView), We can use the following prefixes: 
 
-* btn o button
+* sbtn o button
 * l o label
 * tv o textView
 * tbl o table
@@ -102,3 +102,5 @@ When we program a new widget (UIView), We can use the following prefixes:
 * v o view
 * ti o textInput
 * iv o imageView
+
+ADD COMMENT EXAMPLE

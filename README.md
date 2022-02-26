@@ -104,3 +104,4 @@ When we program a new widget (UIView), We can use the following prefixes:
 * iv o imageView
 
 ADD COMMENT EXAMPLE
+agregando comentario2

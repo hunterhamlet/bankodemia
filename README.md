@@ -54,49 +54,47 @@ Cuando programemos un nuevo widget (UIView), podemos seguir los siguientes prefi
 
 #  Bankodemia - (EN)
 
-Descripción: Proyecto final del bootcamp primera generación de iOS en Kodemia.
+Description: First Kodemia bootcamp iOS generation. Cupertino Squad's Final project. (The best one. :) )
 
 # Architecture
 
-Se recomienda utilizar la arquitectura MVVM, para poder separar las capas del proyecto que sea entendible.
+It's recommended to use MVVM architecture, to be able to separate project's layers and make them understandable.
 
 # Folder structure
 
-Para la estructura de carpetas, se sugiere ocupar las siguiente estructura: 
-
-
+ For the structure's folder, It's suggested to use as following:
 
 # Work flow
 
-Para el workflow, se recomienda utilizar conventional commits, para mas información consultar el siguiente [enlace](https://www.conventionalcommits.org/en/v1.0.0/)
+For workflow, It's recommended to use conventional commits, for more information please check the following link:
+[enlace](https://www.conventionalcommits.org/en/v1.0.0/)
 
 
-Aqui tenemos varios ejemplos
+Here we have some examples:
 
-Para nuevos feautures, usaremos feat:
+For new feautures, we use "feat":
 
 >> feat: [[Login]] Add screen for login flow.
 
 >> feat: Add sceen for login flow.
 
 
-Para resolver bugs, usaremos: 
+To solve bugs, we'll use: 
 
 >> fix: [[Login]] Solve problems with login flow.
 
 >> fix: Solve problems with login flow.
 
-Para la estructuras de ramas podemos usar git flow, para mas informacion dejo los siguientes enlaces: 
+For banch's Structures We can use "git flow". For more information here are some links:
 
 * [Atlassian](https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow)
 * [Cheatsheet](http://danielkummer.github.io/git-flow-cheatsheet/index.html)
 
-
 # Widgets guidelines
 
-Cuando programemos un nuevo widget (UIView), podemos seguir los siguientes prefijos: 
+When we program a new widget (UIView), We can use the following prefixes: 
 
-* btn o button
+* sbtn o button
 * l o label
 * tv o textView
 * tbl o table
@@ -104,3 +102,6 @@ Cuando programemos un nuevo widget (UIView), podemos seguir los siguientes prefi
 * v o view
 * ti o textInput
 * iv o imageView
+
+ADD COMMENT EXAMPLE
+agregando comentario2

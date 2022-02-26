@@ -38,6 +38,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D618D61D27CABFD60026C02D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		E0DAB9D727C08482004641EE /* Modules */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +96,7 @@
 		E0E24F1227BEFAF400E629F8 /* bankodemia */ = {
 			isa = PBXGroup;
 			children = (
+				D618D61D27CABFD60026C02D /* View */,
 				E0DAB9D727C08482004641EE /* Modules */,
 				E0E24F1327BEFAF400E629F8 /* AppDelegate.swift */,
 				E0E24F1527BEFAF400E629F8 /* SceneDelegate.swift */,

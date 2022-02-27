@@ -103,5 +103,3 @@ When we program a new widget (UIView), We can use the following prefixes:
 * ti o textInput
 * iv o imageView
 
-ADD COMMENT EXAMPLE
-

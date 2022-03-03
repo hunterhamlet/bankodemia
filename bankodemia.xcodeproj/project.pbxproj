@@ -14,6 +14,9 @@
 		E0B0F5D427CF1CE300AFB606 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F5D327CF1CE300AFB606 /* UIViewExtensions.swift */; };
 		E0B0F5D727CF238100AFB606 /* StringsSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F5D627CF238100AFB606 /* StringsSP.swift */; };
 		E0B0F5DA27CF248E00AFB606 /* Dimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F5D927CF248E00AFB606 /* Dimensions.swift */; };
+		E0B0F5DC27D0627D00AFB606 /* UIBUttonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F5DB27D0627D00AFB606 /* UIBUttonExtensions.swift */; };
+		E0B0F5DF27D068A000AFB606 /* FontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F5DE27D068A000AFB606 /* FontSize.swift */; };
+		E0B0F5E127D06BAA00AFB606 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F5E027D06BAA00AFB606 /* UILabelExtensions.swift */; };
 		E0E24F1427BEFAF400E629F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E24F1327BEFAF400E629F8 /* AppDelegate.swift */; };
 		E0E24F1627BEFAF400E629F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E24F1527BEFAF400E629F8 /* SceneDelegate.swift */; };
 		E0E24F1827BEFAF400E629F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E24F1727BEFAF400E629F8 /* ViewController.swift */; };
@@ -31,6 +34,9 @@
 		E0B0F5D327CF1CE300AFB606 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		E0B0F5D627CF238100AFB606 /* StringsSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsSP.swift; sourceTree = "<group>"; };
 		E0B0F5D927CF248E00AFB606 /* Dimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimensions.swift; sourceTree = "<group>"; };
+		E0B0F5DB27D0627D00AFB606 /* UIBUttonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBUttonExtensions.swift; sourceTree = "<group>"; };
+		E0B0F5DE27D068A000AFB606 /* FontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSize.swift; sourceTree = "<group>"; };
+		E0B0F5E027D06BAA00AFB606 /* UILabelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
 		E0DAB9DB27C084EF004641EE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E0E24F1027BEFAF400E629F8 /* bankodemia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bankodemia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E24F1327BEFAF400E629F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +62,8 @@
 		E0B0F5C627CF076700AFB606 /* Styles */ = {
 			isa = PBXGroup;
 			children = (
+				E0B0F5DD27D0688D00AFB606 /* FontSize */,
+				E0B0F5D827CF247B00AFB606 /* Dimensions */,
 				E0B0F5CF27CF1BEA00AFB606 /* Theme */,
 				E0B0F5CA27CF0ABB00AFB606 /* Fonts */,
 			);
@@ -83,6 +91,8 @@
 			children = (
 				E0B0F5CD27CF137400AFB606 /* ConstraintExtensions.swift */,
 				E0B0F5D327CF1CE300AFB606 /* UIViewExtensions.swift */,
+				E0B0F5DB27D0627D00AFB606 /* UIBUttonExtensions.swift */,
+				E0B0F5E027D06BAA00AFB606 /* UILabelExtensions.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -117,6 +127,14 @@
 				E0B0F5D927CF248E00AFB606 /* Dimensions.swift */,
 			);
 			name = Dimensions;
+			sourceTree = "<group>";
+		};
+		E0B0F5DD27D0688D00AFB606 /* FontSize */ = {
+			isa = PBXGroup;
+			children = (
+				E0B0F5DE27D068A000AFB606 /* FontSize.swift */,
+			);
+			name = FontSize;
 			sourceTree = "<group>";
 		};
 		E0DAB9D727C08482004641EE /* Modules */ = {
@@ -170,7 +188,6 @@
 		E0E24F1227BEFAF400E629F8 /* bankodemia */ = {
 			isa = PBXGroup;
 			children = (
-				E0B0F5D827CF247B00AFB606 /* Dimensions */,
 				E0B0F5D527CF236A00AFB606 /* Strings */,
 				E0B0F5D027CF1C2500AFB606 /* Widgets */,
 				E0B0F5CC27CF135500AFB606 /* Extensions */,
@@ -266,7 +283,10 @@
 				E0B0F5C527CF065A00AFB606 /* BaseUIViewController.swift in Sources */,
 				E0E24F1427BEFAF400E629F8 /* AppDelegate.swift in Sources */,
 				E0B0F5DA27CF248E00AFB606 /* Dimensions.swift in Sources */,
+				E0B0F5E127D06BAA00AFB606 /* UILabelExtensions.swift in Sources */,
+				E0B0F5DF27D068A000AFB606 /* FontSize.swift in Sources */,
 				E0E24F1627BEFAF400E629F8 /* SceneDelegate.swift in Sources */,
+				E0B0F5DC27D0627D00AFB606 /* UIBUttonExtensions.swift in Sources */,
 				E0B0F5CE27CF137400AFB606 /* ConstraintExtensions.swift in Sources */,
 				E0B0F5C927CF07A700AFB606 /* Theme.swift in Sources */,
 			);

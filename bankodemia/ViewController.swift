@@ -9,12 +9,13 @@ import UIKit
 
 class ViewController: BaseUIViewController {
     
+    
     private lazy var userEmail = CustomTextField(placeHolder: StringSP.writeEmail)
     private lazy var userPass = CustomTextField(placeHolder: StringSP.writePass, isPassField: true)
     private lazy var btContained = UIButton()
     private lazy var btOutlined = UIButton()
     private lazy var lExample = UILabel()
-    
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         initUI()
@@ -44,5 +45,6 @@ class ViewController: BaseUIViewController {
         lExample.addAnchorsAndSize(width: nil, height: 100, left: Dimensions.grid8, top: Dimensions.grid4, right: Dimensions.grid8, bottom: nil, withAnchor: .top, relativeToView: btOutlined)
     }
 
+     
 }
 

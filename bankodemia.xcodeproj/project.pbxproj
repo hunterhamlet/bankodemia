@@ -26,7 +26,6 @@
 		E0E24F1B27BEFAF400E629F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E24F1927BEFAF400E629F8 /* Main.storyboard */; };
 		E0E24F1D27BEFAF600E629F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E24F1C27BEFAF600E629F8 /* Assets.xcassets */; };
 		E0E24F2027BEFAF600E629F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E24F1E27BEFAF600E629F8 /* LaunchScreen.storyboard */; };
-		F32552AC27D1709B00178A0F /* vWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32552AB27D1709B00178A0F /* vWelcome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,7 +52,6 @@
 		E0E24F1C27BEFAF600E629F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0E24F1F27BEFAF600E629F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0E24F2127BEFAF600E629F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F32552AB27D1709B00178A0F /* vWelcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vWelcome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,24 +173,24 @@
 			isa = PBXGroup;
 			children = (
 				E094B3C827D19A9B001F0BF4 /* CreateAccount */,
-				E0DAB9D827C08494004641EE /* Login */,
+				E0DAB9D827C08494004641EE /* Welcome */,
 			);
 			name = Modules;
 			sourceTree = "<group>";
 		};
-		E0DAB9D827C08494004641EE /* Login */ = {
+		E0DAB9D827C08494004641EE /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
 				E0DAB9DA27C084A5004641EE /* ViewModel */,
 				E0DAB9D927C0849A004641EE /* View */,
 			);
-			name = Login;
+			name = Welcome;
 			sourceTree = "<group>";
 		};
 		E0DAB9D927C0849A004641EE /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F32552AB27D1709B00178A0F /* vWelcome.swift */,
+				E0E24F1727BEFAF400E629F8 /* WelcomeViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -232,7 +230,6 @@
 				E0DAB9D727C08482004641EE /* Modules */,
 				E0E24F1327BEFAF400E629F8 /* AppDelegate.swift */,
 				E0E24F1527BEFAF400E629F8 /* SceneDelegate.swift */,
-				E0E24F1727BEFAF400E629F8 /* WelcomeViewController.swift */,
 				E0E24F1927BEFAF400E629F8 /* Main.storyboard */,
 				E0E24F1C27BEFAF600E629F8 /* Assets.xcassets */,
 				E0E24F1E27BEFAF600E629F8 /* LaunchScreen.storyboard */,
@@ -317,8 +314,7 @@
 				E0B0F5D227CF1C5100AFB606 /* CustomTextField.swift in Sources */,
 				E0B0F5D727CF238100AFB606 /* StringsSP.swift in Sources */,
 				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
-				E0E24F1827BEFAF400E629F8 /* ViewController.swift in Sources */,
-				F32552AC27D1709B00178A0F /* vWelcome.swift in Sources */,
+				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
 				E0B0F5D427CF1CE300AFB606 /* UIViewExtensions.swift in Sources */,
 				E0B0F5C527CF065A00AFB606 /* BaseUIViewController.swift in Sources */,
 				E0E24F1427BEFAF400E629F8 /* AppDelegate.swift in Sources */,

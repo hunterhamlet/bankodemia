@@ -23,6 +23,7 @@
 		E0E24F1B27BEFAF400E629F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E24F1927BEFAF400E629F8 /* Main.storyboard */; };
 		E0E24F1D27BEFAF600E629F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E24F1C27BEFAF600E629F8 /* Assets.xcassets */; };
 		E0E24F2027BEFAF600E629F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E24F1E27BEFAF600E629F8 /* LaunchScreen.storyboard */; };
+		F32552AC27D1709B00178A0F /* vWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32552AB27D1709B00178A0F /* vWelcome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		E0E24F1C27BEFAF600E629F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0E24F1F27BEFAF600E629F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0E24F2127BEFAF600E629F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32552AB27D1709B00178A0F /* vWelcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vWelcome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 		E0DAB9D927C0849A004641EE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F32552AB27D1709B00178A0F /* vWelcome.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				E0B0F5D227CF1C5100AFB606 /* CustomTextField.swift in Sources */,
 				E0B0F5D727CF238100AFB606 /* StringsSP.swift in Sources */,
 				E0E24F1827BEFAF400E629F8 /* ViewController.swift in Sources */,
+				F32552AC27D1709B00178A0F /* vWelcome.swift in Sources */,
 				E0B0F5D427CF1CE300AFB606 /* UIViewExtensions.swift in Sources */,
 				E0B0F5C527CF065A00AFB606 /* BaseUIViewController.swift in Sources */,
 				E0E24F1427BEFAF400E629F8 /* AppDelegate.swift in Sources */,

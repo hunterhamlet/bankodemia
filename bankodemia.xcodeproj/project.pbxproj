@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E74B1FA4F7E3541D8858074 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5E74BE4965A305EA3FCFFE26 /* .gitignore */; };
 		D64F90D227D1861F005F12F1 /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F90D127D1861F005F12F1 /* SingUpViewController.swift */; };
 		E0B0F5C527CF065A00AFB606 /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F5C427CF065A00AFB606 /* BaseUIViewController.swift */; };
 		E0B0F5C927CF07A700AFB606 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F5C827CF07A700AFB606 /* Theme.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E74BE4965A305EA3FCFFE26 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		D64F90D127D1861F005F12F1 /* SingUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
 		E0B0F5C427CF065A00AFB606 /* BaseUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUIViewController.swift; sourceTree = "<group>"; };
 		E0B0F5C827CF07A700AFB606 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 				E0DAB9DB27C084EF004641EE /* README.md */,
 				E0E24F1227BEFAF400E629F8 /* bankodemia */,
 				E0E24F1127BEFAF400E629F8 /* Products */,
+				5E74BE4965A305EA3FCFFE26 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -296,6 +299,7 @@
 				E0E24F2027BEFAF600E629F8 /* LaunchScreen.storyboard in Resources */,
 				E0E24F1D27BEFAF600E629F8 /* Assets.xcassets in Resources */,
 				E0E24F1B27BEFAF400E629F8 /* Main.storyboard in Resources */,
+				5E74B1FA4F7E3541D8858074 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

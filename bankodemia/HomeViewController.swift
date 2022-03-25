@@ -7,12 +7,11 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: BaseUIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // TODO: aqui esta la vista para comenzar con HOME 1
+        hideBackButton()
     }
     
 

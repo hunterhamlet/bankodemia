@@ -10,9 +10,18 @@ import UIKit
 
 extension UILabel {
     
-    func applyStyle(fontSize: CGFloat = FontSize.defaulSize) {
+    func applyDarkStyle(fontSize: CGFloat = FontSize.defaulSize) {
         self.font = UIFont(name: Theme.Font.popinsMedium, size: fontSize)
         self.textColor = .darkText
+    }
+    
+    func applyLightStyle(fontSize: CGFloat = FontSize.defaulSize) {
+        self.font = UIFont(name: Theme.Font.popinsMedium, size: fontSize)
+        self.textColor = .white
+    }
+    
+    func isMultiline() {
+        self.numberOfLines = .zero
     }
     
 }

@@ -12,6 +12,8 @@
 		D69131F927ED283A00D56CED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69131F827ED283A00D56CED /* HomeViewController.swift */; };
 		E094B3C727D18D33001F0BF4 /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094B3C627D18D33001F0BF4 /* Drawable.swift */; };
 		E094B3CD27D19C00001F0BF4 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094B3CC27D19C00001F0BF4 /* UIViewControllerExtensions.swift */; };
+		5E74B1FA4F7E3541D8858074 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5E74BE4965A305EA3FCFFE26 /* .gitignore */; };
+		D64F90D227D1861F005F12F1 /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F90D127D1861F005F12F1 /* SingUpViewController.swift */; };
 		E0B0F5C527CF065A00AFB606 /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F5C427CF065A00AFB606 /* BaseUIViewController.swift */; };
 		E0B0F5C927CF07A700AFB606 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F5C827CF07A700AFB606 /* Theme.swift */; };
 		E0B0F5CE27CF137400AFB606 /* ConstraintExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F5CD27CF137400AFB606 /* ConstraintExtensions.swift */; };
@@ -37,6 +39,7 @@
 		D69131F827ED283A00D56CED /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E094B3C627D18D33001F0BF4 /* Drawable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawable.swift; sourceTree = "<group>"; };
 		E094B3CC27D19C00001F0BF4 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		D64F90D127D1861F005F12F1 /* SingUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
 		E0B0F5C427CF065A00AFB606 /* BaseUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUIViewController.swift; sourceTree = "<group>"; };
 		E0B0F5C827CF07A700AFB606 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		E0B0F5CB27CF0ADB00AFB606 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
@@ -273,6 +276,7 @@
 				E0DAB9DB27C084EF004641EE /* README.md */,
 				E0E24F1227BEFAF400E629F8 /* bankodemia */,
 				E0E24F1127BEFAF400E629F8 /* Products */,
+				5E74BE4965A305EA3FCFFE26 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -364,6 +368,7 @@
 				E0E24F2027BEFAF600E629F8 /* LaunchScreen.storyboard in Resources */,
 				E0E24F1D27BEFAF600E629F8 /* Assets.xcassets in Resources */,
 				E0E24F1B27BEFAF400E629F8 /* Main.storyboard in Resources */,
+				5E74B1FA4F7E3541D8858074 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +385,7 @@
 				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
 				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
 				D69131F927ED283A00D56CED /* HomeViewController.swift in Sources */,
+				E0E24F1827BEFAF400E629F8 /* ViewController.swift in Sources */,
 				E0B0F5D427CF1CE300AFB606 /* UIViewExtensions.swift in Sources */,
 				E0B0F5C527CF065A00AFB606 /* BaseUIViewController.swift in Sources */,
 				E0E24F1427BEFAF400E629F8 /* AppDelegate.swift in Sources */,

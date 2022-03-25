@@ -79,7 +79,6 @@
 		D64F90CF27D185E8005F12F1 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				D69131F327ED27EF00D56CED /* SignUpViewController.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -87,6 +86,7 @@
 		D64F90D027D185F7005F12F1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D69131F327ED27EF00D56CED /* SignUpViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -94,25 +94,49 @@
 		D69131F527ED280000D56CED /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				D69131F627ED280C00D56CED /* HomeViewModel */,
-				D69131F727ED281F00D56CED /* HomeView */,
+				D69131F627ED280C00D56CED /* ViewModel */,
+				D69131F727ED281F00D56CED /* View */,
 			);
 			name = Home;
 			sourceTree = "<group>";
 		};
-		D69131F627ED280C00D56CED /* HomeViewModel */ = {
+		D69131F627ED280C00D56CED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		D69131F727ED281F00D56CED /* View */ = {
 			isa = PBXGroup;
 			children = (
 				D69131F827ED283A00D56CED /* HomeViewController.swift */,
 			);
-			name = HomeViewModel;
+			name = View;
 			sourceTree = "<group>";
 		};
-		D69131F727ED281F00D56CED /* HomeView */ = {
+		E0AB2BA927ED57A600BE2103 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				E0AB2BAB27ED57BF00BE2103 /* View */,
+				E0AB2BAA27ED57B300BE2103 /* ViewModel */,
+			);
+			name = Welcome;
+			sourceTree = "<group>";
+		};
+		E0AB2BAA27ED57B300BE2103 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = HomeView;
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		E0AB2BAB27ED57BF00BE2103 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F32552AB27D1709B00178A0F /* vWelcome.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		E0B0F5C627CF076700AFB606 /* Styles */ = {
@@ -196,26 +220,27 @@
 		E0DAB9D727C08482004641EE /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				E0AB2BA927ED57A600BE2103 /* Welcome */,
 				D69131F527ED280000D56CED /* Home */,
 				D64F90CE27D185D7005F12F1 /* Sign Up */,
-				E0DAB9D827C08494004641EE /* Login */,
+				E0DAB9D827C08494004641EE /* SingIn */,
 			);
 			name = Modules;
 			sourceTree = "<group>";
 		};
-		E0DAB9D827C08494004641EE /* Login */ = {
+		E0DAB9D827C08494004641EE /* SingIn */ = {
 			isa = PBXGroup;
 			children = (
 				E0DAB9DA27C084A5004641EE /* ViewModel */,
 				E0DAB9D927C0849A004641EE /* View */,
 			);
-			name = Login;
+			name = SingIn;
 			sourceTree = "<group>";
 		};
 		E0DAB9D927C0849A004641EE /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F32552AB27D1709B00178A0F /* vWelcome.swift */,
+				D64F90D127D1861F005F12F1 /* SingInViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -223,7 +248,6 @@
 		E0DAB9DA27C084A5004641EE /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				D64F90D127D1861F005F12F1 /* SingInViewController.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SignUpViewController: UIViewController {
+class SignUpViewController: BaseUIViewController {
     
     private lazy var userEmail = CustomTextField(placeHolder: StringSP.writeEmail)
     private lazy var userPass = CustomTextField(placeHolder: StringSP.writePass, isPassField: true)
@@ -25,6 +25,7 @@ class SignUpViewController: UIViewController {
     private func initUI() {
             
         //TODO : Buttons to back needs to add
+        
         
         view.addSubview(lExample2)
         lExample2.text = "Aqui recibiras comprobantes de tus movimientos e información sobre tu cuenta."

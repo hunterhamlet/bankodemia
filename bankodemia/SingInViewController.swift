@@ -7,8 +7,7 @@
 
 import UIKit
 
-//class SingUpViewController: UIViewController {
-class SingInViewController: UIViewController {
+class SingInViewController: BaseUIViewController {
         
         private lazy var userEmail = CustomTextField(placeHolder: StringSP.writeEmail)
         private lazy var userPass = CustomTextField(placeHolder: StringSP.writePass, isPassField: true)

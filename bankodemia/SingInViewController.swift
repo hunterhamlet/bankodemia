@@ -7,7 +7,8 @@
 
 import UIKit
 
-class SingUpViewController: UIViewController {
+//class SingUpViewController: UIViewController {
+class SingInViewController: UIViewController {
         
         private lazy var userEmail = CustomTextField(placeHolder: StringSP.writeEmail)
         private lazy var userPass = CustomTextField(placeHolder: StringSP.writePass, isPassField: true)
@@ -18,6 +19,7 @@ class SingUpViewController: UIViewController {
     
         override func viewDidLoad() {
             super.viewDidLoad()
+            view.backgroundColor = .systemBackground
             initUI()
         }
         

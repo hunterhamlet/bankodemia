@@ -1,3 +1,6 @@
+
+.idea/
+
 bankodemia.xcodeproj/project.pbxproj
 bankodemia/.DS_Store
 # Default ignored files
@@ -8,3 +11,6 @@ bankodemia/.DS_Store
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+.idea/workspace.xml
+
+.idea/

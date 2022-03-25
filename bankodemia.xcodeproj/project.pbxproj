@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D64F90D227D1861F005F12F1 /* SingInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F90D127D1861F005F12F1 /* SingInViewController.swift */; };
+		D69131F427ED27EF00D56CED /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69131F327ED27EF00D56CED /* SignUpViewController.swift */; };
+		D69131F927ED283A00D56CED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69131F827ED283A00D56CED /* HomeViewController.swift */; };
 		5E74B1FA4F7E3541D8858074 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5E74BE4965A305EA3FCFFE26 /* .gitignore */; };
 		D64F90D227D1861F005F12F1 /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F90D127D1861F005F12F1 /* SingUpViewController.swift */; };
 		E0B0F5C527CF065A00AFB606 /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F5C427CF065A00AFB606 /* BaseUIViewController.swift */; };
@@ -29,7 +32,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5E74BE4965A305EA3FCFFE26 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		D64F90D127D1861F005F12F1 /* SingUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
 		E0B0F5C427CF065A00AFB606 /* BaseUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUIViewController.swift; sourceTree = "<group>"; };
 		E0B0F5C827CF07A700AFB606 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
@@ -77,7 +79,7 @@
 		D64F90CF27D185E8005F12F1 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				D64F90D127D1861F005F12F1 /* SingUpViewController.swift */,
+				D69131F327ED27EF00D56CED /* SignUpViewController.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -87,6 +89,30 @@
 			children = (
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		D69131F527ED280000D56CED /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D69131F627ED280C00D56CED /* HomeViewModel */,
+				D69131F727ED281F00D56CED /* HomeView */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		D69131F627ED280C00D56CED /* HomeViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D69131F827ED283A00D56CED /* HomeViewController.swift */,
+			);
+			name = HomeViewModel;
+			sourceTree = "<group>";
+		};
+		D69131F727ED281F00D56CED /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HomeView;
 			sourceTree = "<group>";
 		};
 		E0B0F5C627CF076700AFB606 /* Styles */ = {
@@ -170,6 +196,7 @@
 		E0DAB9D727C08482004641EE /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				D69131F527ED280000D56CED /* Home */,
 				D64F90CE27D185D7005F12F1 /* Sign Up */,
 				E0DAB9D827C08494004641EE /* Login */,
 			);
@@ -196,6 +223,7 @@
 		E0DAB9DA27C084A5004641EE /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D64F90D127D1861F005F12F1 /* SingInViewController.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -313,13 +341,13 @@
 				E0B0F5D227CF1C5100AFB606 /* CustomTextField.swift in Sources */,
 				E0B0F5D727CF238100AFB606 /* StringsSP.swift in Sources */,
 				E0E24F1827BEFAF400E629F8 /* ViewController.swift in Sources */,
-				F32552AC27D1709B00178A0F /* vWelcome.swift in Sources */,
 				E0B0F5D427CF1CE300AFB606 /* UIViewExtensions.swift in Sources */,
 				E0B0F5C527CF065A00AFB606 /* BaseUIViewController.swift in Sources */,
 				E0E24F1427BEFAF400E629F8 /* AppDelegate.swift in Sources */,
 				E0B0F5DA27CF248E00AFB606 /* Dimensions.swift in Sources */,
 				E0B0F5E127D06BAA00AFB606 /* UILabelExtensions.swift in Sources */,
-				D64F90D227D1861F005F12F1 /* SingUpViewController.swift in Sources */,
+				D64F90D227D1861F005F12F1 /* SingInViewController.swift in Sources */,
+				D69131F427ED27EF00D56CED /* SignUpViewController.swift in Sources */,
 				E0B0F5DF27D068A000AFB606 /* FontSize.swift in Sources */,
 				E0E24F1627BEFAF400E629F8 /* SceneDelegate.swift in Sources */,
 				E0B0F5DC27D0627D00AFB606 /* UIBUttonExtensions.swift in Sources */,

@@ -13,10 +13,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        window?.makeKeyAndVisible()
         guard let scene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.windowScene = scene
-        let welcomeVC = vWelcome()
+//        let welcomeVC = vWelcome()
+        let welcomeVC = SignUpViewController()
         window?.rootViewController = welcomeVC
         window?.makeKeyAndVisible()
     }

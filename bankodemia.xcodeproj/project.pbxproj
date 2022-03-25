@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E74B1FA4F7E3541D8858074 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		D64F90D227D1861F005F12F1 /* SingInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F90D127D1861F005F12F1 /* SingInViewController.swift */; };
 		D69131F427ED27EF00D56CED /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69131F327ED27EF00D56CED /* SignUpViewController.swift */; };
 		D69131F927ED283A00D56CED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69131F827ED283A00D56CED /* HomeViewController.swift */; };
-		5E74B1FA4F7E3541D8858074 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5E74BE4965A305EA3FCFFE26 /* .gitignore */; };
-		D64F90D227D1861F005F12F1 /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F90D127D1861F005F12F1 /* SingUpViewController.swift */; };
+		D69131FB27EE53F100D56CED /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69131FA27EE53F100D56CED /* DataViewController.swift */; };
 		E094B3C727D18D33001F0BF4 /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094B3C627D18D33001F0BF4 /* Drawable.swift */; };
 		E094B3CD27D19C00001F0BF4 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094B3CC27D19C00001F0BF4 /* UIViewControllerExtensions.swift */; };
 		E0B0F5C527CF065A00AFB606 /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F5C427CF065A00AFB606 /* BaseUIViewController.swift */; };
@@ -34,10 +34,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D64F90D127D1861F005F12F1 /* SingUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
 		D64F90D127D1861F005F12F1 /* SingInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInViewController.swift; sourceTree = "<group>"; };
 		D69131F327ED27EF00D56CED /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D69131F827ED283A00D56CED /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D69131FA27EE53F100D56CED /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		E094B3C627D18D33001F0BF4 /* Drawable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawable.swift; sourceTree = "<group>"; };
 		E094B3CC27D19C00001F0BF4 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		E0B0F5C427CF065A00AFB606 /* BaseUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUIViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				D69131F327ED27EF00D56CED /* SignUpViewController.swift */,
+				D69131FA27EE53F100D56CED /* DataViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -276,7 +277,6 @@
 				E0DAB9DB27C084EF004641EE /* README.md */,
 				E0E24F1227BEFAF400E629F8 /* bankodemia */,
 				E0E24F1127BEFAF400E629F8 /* Products */,
-				5E74BE4965A305EA3FCFFE26 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -368,7 +368,7 @@
 				E0E24F2027BEFAF600E629F8 /* LaunchScreen.storyboard in Resources */,
 				E0E24F1D27BEFAF600E629F8 /* Assets.xcassets in Resources */,
 				E0E24F1B27BEFAF400E629F8 /* Main.storyboard in Resources */,
-				5E74B1FA4F7E3541D8858074 /* .gitignore in Resources */,
+				5E74B1FA4F7E3541D8858074 /* (null) in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,13 +382,14 @@
 				E094B3CD27D19C00001F0BF4 /* UIViewControllerExtensions.swift in Sources */,
 				E0B0F5D227CF1C5100AFB606 /* CustomTextField.swift in Sources */,
 				E0B0F5D727CF238100AFB606 /* StringsSP.swift in Sources */,
-				E0E24F1827BEFAF400E629F8 /* ViewController.swift in Sources */,
+				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
 				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
 				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
 				D69131F927ED283A00D56CED /* HomeViewController.swift in Sources */,
 				E0B0F5D427CF1CE300AFB606 /* UIViewExtensions.swift in Sources */,
 				E0B0F5C527CF065A00AFB606 /* BaseUIViewController.swift in Sources */,
 				E0E24F1427BEFAF400E629F8 /* AppDelegate.swift in Sources */,
+				D69131FB27EE53F100D56CED /* DataViewController.swift in Sources */,
 				E0B0F5DA27CF248E00AFB606 /* Dimensions.swift in Sources */,
 				E094B3C727D18D33001F0BF4 /* Drawable.swift in Sources */,
 				E0B0F5E127D06BAA00AFB606 /* UILabelExtensions.swift in Sources */,

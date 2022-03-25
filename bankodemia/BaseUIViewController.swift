@@ -17,20 +17,17 @@ open class BaseUIViewController: UIViewController {
     lazy var height : CGFloat = UIScreen.main.bounds.height
     
     private lazy var ivMainLogo: UIImageView = UIImageView()
+    private lazy var ivBack: UIImageView = UIImageView()
+    private lazy var lBackTitle: UILabel = UILabel()
+    
+    var titleBack: String = ""
     
     open override func viewDidLoad() {
         view.backgroundColor = Theme.Color.background
         addMainLogo()
+        addBackContainer()
     }
 
-    /*
-     Function to move beetwen screens
-     */
-    func moveTo(screen: UIViewController, showStyle: UIModalPresentationStyle = .automatic) {
-        screen.modalPresentationStyle = showStyle
-        present(screen, animated: true)
-    }
-    
     /*
      This function hide main logo
      */
@@ -54,11 +51,34 @@ open class BaseUIViewController: UIViewController {
         ivMainLogo.addAnchorsAndCenter(centerX: true, width: 70, height: 40, top: 48)
     }
     
+    private func addBackContainer() {
+        view.addSubview(ivBack)
+        ivBack.image = UIImage(named: Drawable.icBack)
+        ivBack.isUserInteractionEnabled = true
+        ivBack.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(onBackPress)))
+        ivBack.addAnchorsAndSize(width: nil, height: nil, left: Dimensions.grid6, top: Dimensions.grid6, right: nil, bottom: nil, withAnchor: .top, relativeToView: ivMainLogo)
+        
+        view.addSubview(lBackTitle)
+        lBackTitle.text = titleBack
+        lBackTitle.applyDarkStyle(fontSize: FontSize.size10)
+        lBackTitle.addAnchorsAndSize(width: nil, height: nil, left: nil, top: Dimensions.grid4_5, right: nil, bottom: nil, withAnchor: .top, relativeToView: ivMainLogo)
+        lBackTitle.addAnchors(left: Dimensions.grid4, top: nil, right: nil, bottom: nil, withAnchor: .left, relativeToView: ivBack)
+    }
+    
+    func hideBackButton() {
+        ivBack.isHidden = true
+        lBackTitle.isHidden = true
+    }
+    
     /*
      This function return mian logo
      */
     func getIvMainLogo() -> UIImageView {
         return ivMainLogo
+    }
+    
+    @objc private func onBackPress() {
+        dismiss(animated: true)
     }
     
 }

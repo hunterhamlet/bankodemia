@@ -17,6 +17,5 @@ extension UIView {
     func setOnClickFunction( tapAction: Selector? ) {
         self.addGestureRecognizer(UITapGestureRecognizer(target: self, action: tapAction))
     }
-
 }
 

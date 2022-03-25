@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SignUpViewController: UIViewController {
+class SignUpViewController: BaseUIViewController {
     
     private lazy var userEmail = CustomTextField(placeHolder: StringSP.writeEmail)
     private lazy var userPass = CustomTextField(placeHolder: StringSP.writePass, isPassField: true)
@@ -26,9 +26,10 @@ class SignUpViewController: UIViewController {
             
         //TODO : Buttons to back needs to add
         
+        
         view.addSubview(lExample2)
         lExample2.text = "Aqui recibiras comprobantes de tus movimientos e información sobre tu cuenta."
-        lExample2.applyStyle(fontSize: FontSize.size18)
+        lExample2.applyDarkStyle(fontSize: FontSize.size18)
         lExample2.numberOfLines = .zero
         lExample2.addAnchorsAndSize(width: nil, height: Dimensions.tilHeight, left: Dimensions.grid8, top: 150, right:Dimensions.grid8, bottom: nil, withAnchor: nil, relativeToView: nil)
         
@@ -45,7 +46,7 @@ class SignUpViewController: UIViewController {
 
         view.addSubview(lExample)
         lExample.text = "Al continuar aceptas nuestro"
-        lExample.applyStyle(fontSize: FontSize.size18)
+        lExample.applyDarkStyle(fontSize: FontSize.size18)
         lExample.numberOfLines = .zero
         lExample.addAnchorsAndSize(width: nil, height: Dimensions.tilHeight, left: 70, top: nil, right:Dimensions.grid8, bottom: 100, withAnchor: nil, relativeToView: btContained)
 

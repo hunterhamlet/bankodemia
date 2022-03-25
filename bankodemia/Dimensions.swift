@@ -16,6 +16,7 @@ class Dimensions {
     static let grid2 = 8.0
     static let grid3 = 12.0
     static let grid4 = 16.0
+    static let grid4_5 = 18.0
     static let grid5 = 20.0
     static let grid6 = 24.0
     static let grid7 = 28.0

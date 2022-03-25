@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.windowScene = scene
 //        let welcomeVC = vWelcome()
-        let welcomeVC = WelcomeViewController()
+        let welcomeVC = DataViewController()
         window?.rootViewController = welcomeVC
         window?.makeKeyAndVisible()
     }

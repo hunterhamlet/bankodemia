@@ -36,12 +36,10 @@ class SignUpViewController: BaseUIViewController {
         view.addSubview(userEmail)
         userEmail.addAnchorsAndSize(width: nil, height: Dimensions.tilHeight, left: Dimensions.grid8, top: 248, right: Dimensions.grid8)
         
-//        view.addSubview(userPass)
-//        userPass.addAnchorsAndSize(width: nil, height: Dimensions.tilHeight, left: Dimensions.grid8, top: Dimensions.grid2, right: Dimensions.grid8, withAnchor: .top, relativeToView: userEmail)
-        
         view.addSubview(btContained)
         btContained.applySolidStyle(fontSize: FontSize.size18)
-        btContained.setTitle("Continuar", for: .normal)
+        btContained.setTitle(StringSP.continueFunc, for: .normal)
+        btContained.addTarget(self, action: #selector(moveToHome), for: .touchUpInside)
         btContained.addAnchorsAndSize(width: nil, height: Dimensions.btHeight, left: Dimensions.grid8, top: nil, right: Dimensions.grid8, bottom: 50, withAnchor: nil, relativeToView: nil)
 
         view.addSubview(lExample)
@@ -54,6 +52,10 @@ class SignUpViewController: BaseUIViewController {
         
         
 }
+    @objc private func moveToHome() {
+        let dataScreen = DataViewController()
+        moveTo(screen: dataScreen, showStyle: .fullScreen)
+    }
 
    
 }

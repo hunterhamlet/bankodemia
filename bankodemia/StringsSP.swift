@@ -14,8 +14,13 @@ class StringSP {
     static let initSession = "Iniciar Sesión"
     static let createAccount = "Crear cuenta"
     
-    static let writeEmail = "Escribe tu correo"
-    static let writePass = "Escribe tu contraseña"
+    static let writeEmail        = "Escribe tu correo"
+    static let writePass         = "Escribe tu contraseña"
+    static let writeName         = "Nombre(s)"
+    static let writeLastName     = "Apellido(s)"
+    static let ocupation         = "Ocupacion"
+    static let dateOfBirth       = "Fecha de nacimiento"
+    static let continueFunc      = "Confinuar"
     
     
 }

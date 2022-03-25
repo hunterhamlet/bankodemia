@@ -28,7 +28,7 @@ class SignUpViewController: BaseUIViewController {
         
         
         view.addSubview(lExample2)
-        lExample2.text = "Aqui recibiras comprobantes de tus movimientos e información sobre tu cuenta."
+        lExample2.text = StringSP.headSignUpText
         lExample2.applyDarkStyle(fontSize: FontSize.size18)
         lExample2.numberOfLines = .zero
         lExample2.addAnchorsAndSize(width: nil, height: Dimensions.tilHeight, left: Dimensions.grid8, top: 150, right:Dimensions.grid8, bottom: nil, withAnchor: nil, relativeToView: nil)
@@ -43,7 +43,7 @@ class SignUpViewController: BaseUIViewController {
         btContained.addAnchorsAndSize(width: nil, height: Dimensions.btHeight, left: Dimensions.grid8, top: nil, right: Dimensions.grid8, bottom: 50, withAnchor: nil, relativeToView: nil)
 
         view.addSubview(lExample)
-        lExample.text = "Al continuar aceptas nuestro"
+        lExample.text = StringSP.bottomSignUpText
         lExample.applyDarkStyle(fontSize: FontSize.size18)
         lExample.numberOfLines = .zero
         lExample.addAnchorsAndSize(width: nil, height: Dimensions.tilHeight, left: 70, top: nil, right:Dimensions.grid8, bottom: 100, withAnchor: nil, relativeToView: btContained)

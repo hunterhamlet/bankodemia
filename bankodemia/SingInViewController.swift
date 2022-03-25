@@ -27,7 +27,7 @@ class SingInViewController: BaseUIViewController {
             //TODO : Buttons to back needs to add 
             
             view.addSubview(lExample2)
-            lExample2.text = "Escribe el correo y telefono con el que\nte registraste, a traves de estos te\n enviaremos el acceso"
+            lExample2.text = StringSP.headSignInText
             lExample2.applyDarkStyle(fontSize: FontSize.size18)
             lExample2.numberOfLines = .zero
             lExample2.addAnchorsAndSize(width: nil, height: Dimensions.tilHeight, left: Dimensions.grid8, top: 150, right:Dimensions.grid8, bottom: nil, withAnchor: nil, relativeToView: nil)
@@ -45,7 +45,7 @@ class SingInViewController: BaseUIViewController {
             btContained.addAnchorsAndSize(width: nil, height: Dimensions.btHeight, left: Dimensions.grid8, top: nil, right: Dimensions.grid8, bottom: 50, withAnchor: nil, relativeToView: nil)
 
             view.addSubview(lExample)
-            lExample.text = "¿Necesitas ayuda? Escribenos a"
+            lExample.text = StringSP.bottomSignInText
             lExample.applyDarkStyle(fontSize: FontSize.size18)
             lExample.numberOfLines = .zero
             lExample.addAnchorsAndSize(width: nil, height: Dimensions.tilHeight, left: 70, top: nil, right:Dimensions.grid8, bottom: 100, withAnchor: nil, relativeToView: btContained)

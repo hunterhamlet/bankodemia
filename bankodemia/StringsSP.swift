@@ -32,4 +32,6 @@ class StringSP {
     static let headDataText     = "Escribelos tal y como aparecen en tu\nidentificacion oficial sin abreviaturas"
     static let bottomDataText   = "Esta informacion es necesaria para verificar tu identidad."
     
+    static let onlyProbe = "klashdhasdjhasjdhad"
+    
 }

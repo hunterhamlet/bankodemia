@@ -23,7 +23,7 @@ class StringSP {
     static let continueFunc      = "Confinuar"
     
     
-    //Informative Text
+    //MARK: SignIn and SignUp creen
     static let headSignInText   = "Escribe el correo y telefono con el que\nte registraste, a traves de estos te\n enviaremos el acceso"
     static let bottomSignInText = "¿Necesitas ayuda? Escribenos a"
     static let headSignUpText   = "Aqui recibiras comprobantes de tus movimientos e información sobre tu cuenta."
@@ -32,6 +32,18 @@ class StringSP {
     static let headDataText     = "Escribelos tal y como aparecen en tu\nidentificacion oficial sin abreviaturas"
     static let bottomDataText   = "Esta informacion es necesaria para verificar tu identidad."
     
-    static let onlyProbe = "klashdhasdjhasjdhad"
+    
+    //MARK: Add Contact Screen CLABE
+    static let btClabe          = "CLABE"
+    static let btCard           = "Tarjeta"
+    static let digitString      = "18 digitos"
+    static let instiString      = "Institución"
+    static let mailString       =  "Correo de notificacion"
+    static let addContac        = "Agregar Contacto"
+    static let numCard          = "No. de tarjeta"
+    
+    
+   // static let onlyProbe = "klashdhasdjhasjdhad"
+    
     
 }

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5E74B1FA4F7E3541D8858074 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		D64A709727F18ABB0012C7F6 /* AddClabeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A709627F18ABB0012C7F6 /* AddClabeViewController.swift */; };
+		D64A709927F18AD90012C7F6 /* AddCardOpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A709827F18AD90012C7F6 /* AddCardOpViewController.swift */; };
 		D64F90D227D1861F005F12F1 /* SingInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F90D127D1861F005F12F1 /* SingInViewController.swift */; };
 		D69131F427ED27EF00D56CED /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69131F327ED27EF00D56CED /* SignUpViewController.swift */; };
 		D69131F927ED283A00D56CED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69131F827ED283A00D56CED /* HomeViewController.swift */; };
@@ -34,6 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D64A709627F18ABB0012C7F6 /* AddClabeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClabeViewController.swift; sourceTree = "<group>"; };
+		D64A709827F18AD90012C7F6 /* AddCardOpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardOpViewController.swift; sourceTree = "<group>"; };
 		D64F90D127D1861F005F12F1 /* SingInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInViewController.swift; sourceTree = "<group>"; };
 		D69131F327ED27EF00D56CED /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D69131F827ED283A00D56CED /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +78,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D64A709327F18A490012C7F6 /* AddContact */ = {
+			isa = PBXGroup;
+			children = (
+				D64A709427F18A650012C7F6 /* ViewModel */,
+				D64A709527F18A7B0012C7F6 /* View */,
+			);
+			name = AddContact;
+			sourceTree = "<group>";
+		};
+		D64A709427F18A650012C7F6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		D64A709527F18A7B0012C7F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D64A709627F18ABB0012C7F6 /* AddClabeViewController.swift */,
+				D64A709827F18AD90012C7F6 /* AddCardOpViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		D64F90CE27D185D7005F12F1 /* Sign Up */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +270,7 @@
 			children = (
 				E0AB2BA927ED57A600BE2103 /* Welcome */,
 				D69131F527ED280000D56CED /* Home */,
+				D64A709327F18A490012C7F6 /* AddContact */,
 				D64F90CE27D185D7005F12F1 /* Sign Up */,
 				E0DAB9D827C08494004641EE /* SingIn */,
 			);
@@ -387,6 +417,8 @@
 				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
 				D69131F927ED283A00D56CED /* HomeViewController.swift in Sources */,
 				E0B0F5D427CF1CE300AFB606 /* UIViewExtensions.swift in Sources */,
+				D64A709727F18ABB0012C7F6 /* AddClabeViewController.swift in Sources */,
+				D64A709927F18AD90012C7F6 /* AddCardOpViewController.swift in Sources */,
 				E0B0F5C527CF065A00AFB606 /* BaseUIViewController.swift in Sources */,
 				E0E24F1427BEFAF400E629F8 /* AppDelegate.swift in Sources */,
 				D69131FB27EE53F100D56CED /* DataViewController.swift in Sources */,

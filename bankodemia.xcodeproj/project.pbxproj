@@ -33,6 +33,7 @@
 		E0E24F1B27BEFAF400E629F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E24F1927BEFAF400E629F8 /* Main.storyboard */; };
 		E0E24F1D27BEFAF600E629F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E24F1C27BEFAF600E629F8 /* Assets.xcassets */; };
 		E0E24F2027BEFAF600E629F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E24F1E27BEFAF600E629F8 /* LaunchScreen.storyboard */; };
+		F3410D6627F3B12E00678ADD /* vWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3410D6527F3B12E00678ADD /* vWelcome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		E0E24F1C27BEFAF600E629F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0E24F1F27BEFAF600E629F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0E24F2127BEFAF600E629F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3410D6527F3B12E00678ADD /* vWelcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vWelcome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				E0E24F1727BEFAF400E629F8 /* WelcomeViewController.swift */,
+				F3410D6527F3B12E00678ADD /* vWelcome.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				D64F90D227D1861F005F12F1 /* SingInViewController.swift in Sources */,
 				D69131F427ED27EF00D56CED /* SignUpViewController.swift in Sources */,
 				E0B0F5DF27D068A000AFB606 /* FontSize.swift in Sources */,
+				F3410D6627F3B12E00678ADD /* vWelcome.swift in Sources */,
 				E0E24F1627BEFAF400E629F8 /* SceneDelegate.swift in Sources */,
 				E0B0F5DC27D0627D00AFB606 /* UIBUttonExtensions.swift in Sources */,
 				E0B0F5CE27CF137400AFB606 /* ConstraintExtensions.swift in Sources */,

@@ -14,6 +14,7 @@ struct Theme {
         static let background = UIColor.white
         static let blue = UIColor(red: 0, green: 0.8, blue: 0.8, alpha: 0.9)
         static let black = UIColor.black
+        static let darkG = UIColor.darkGray
     }
     
     struct Font {

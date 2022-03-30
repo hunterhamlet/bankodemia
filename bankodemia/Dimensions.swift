@@ -22,6 +22,7 @@ class Dimensions {
     static let grid6 = 24.0
     static let grid7 = 28.0
     static let grid8 = 32.0
+    static let grid8_1 = 42.0
     static let grid8_2 = 64.0
     static let grid8_3 = 96.0
     static let grid9 = 128.0
@@ -30,4 +31,6 @@ class Dimensions {
     //MARK: Specific dimensions
     static let tilHeight = 70.0
     static let btHeight = 42.0
+    static let tilLargeHeight = 130.0
+    
 }

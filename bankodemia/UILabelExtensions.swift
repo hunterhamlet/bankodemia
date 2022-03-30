@@ -24,4 +24,10 @@ extension UILabel {
         self.numberOfLines = .zero
     }
     
+    func applyDarkGrayStyle(fontSize: CGFloat = FontSize.defaulSize) {
+        self.font = UIFont(name: Theme.Font.popinsMedium, size: fontSize)
+        self.textColor = .darkGray
+    }
+    
+    
 }

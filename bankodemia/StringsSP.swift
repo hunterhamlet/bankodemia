@@ -11,6 +11,13 @@ class StringSP {
     
     //MARK: Welcome screen
     static let welcomeLegend = "¡Adiós a las complicaciones!\nUsa el dinero a TU manera"
+    
+    static let ltop = "¡Adiós a las complicaciones!"
+    static let lmiddle = "Usa el dinero a "
+    static let lTu = " TU "
+    static let lmiddleRigth = " manera"
+    
+    
     static let initSession = "Iniciar Sesión"
     static let createAccount = "Crear cuenta"
     

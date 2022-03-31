@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5E74B1FA4F7E3541D8858074 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		D64A709727F18ABB0012C7F6 /* AddClabeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A709627F18ABB0012C7F6 /* AddClabeViewController.swift */; };
+		D64A709927F18AD90012C7F6 /* AddCardOpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A709827F18AD90012C7F6 /* AddCardOpViewController.swift */; };
+		D64A70AB27F5111B0012C7F6 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70AA27F5111B0012C7F6 /* VerificationViewController.swift */; };
+		D64A70AD27F5115B0012C7F6 /* IdentityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70AC27F5115B0012C7F6 /* IdentityViewController.swift */; };
+		D64A70AF27F511770012C7F6 /* IneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70AE27F511770012C7F6 /* IneViewController.swift */; };
+		D64A70B127F5119B0012C7F6 /* Fm3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70B027F5119B0012C7F6 /* Fm3ViewController.swift */; };
+		D64A70B327F511B50012C7F6 /* PassportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70B227F511B50012C7F6 /* PassportViewController.swift */; };
+		D64A70B527F511D10012C7F6 /* PswViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70B427F511D10012C7F6 /* PswViewController.swift */; };
+		D64A70B727F511E90012C7F6 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70B627F511E90012C7F6 /* LoadingViewController.swift */; };
+		D64A70B927F512030012C7F6 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70B827F512030012C7F6 /* ConfirmViewController.swift */; };
 		7FE4AC7427F28D3500F32EBB /* EndAddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE4AC7327F28D3500F32EBB /* EndAddContactViewController.swift */; };
 		D64F90D227D1861F005F12F1 /* SingInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F90D127D1861F005F12F1 /* SingInViewController.swift */; };
 		D69131F427ED27EF00D56CED /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69131F327ED27EF00D56CED /* SignUpViewController.swift */; };
@@ -32,9 +42,20 @@
 		E0E24F1B27BEFAF400E629F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E24F1927BEFAF400E629F8 /* Main.storyboard */; };
 		E0E24F1D27BEFAF600E629F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E24F1C27BEFAF600E629F8 /* Assets.xcassets */; };
 		E0E24F2027BEFAF600E629F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E24F1E27BEFAF600E629F8 /* LaunchScreen.storyboard */; };
+		F3410D6627F3B12E00678ADD /* vWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3410D6527F3B12E00678ADD /* vWelcome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D64A709627F18ABB0012C7F6 /* AddClabeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClabeViewController.swift; sourceTree = "<group>"; };
+		D64A709827F18AD90012C7F6 /* AddCardOpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardOpViewController.swift; sourceTree = "<group>"; };
+		D64A70AA27F5111B0012C7F6 /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		D64A70AC27F5115B0012C7F6 /* IdentityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityViewController.swift; sourceTree = "<group>"; };
+		D64A70AE27F511770012C7F6 /* IneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IneViewController.swift; sourceTree = "<group>"; };
+		D64A70B027F5119B0012C7F6 /* Fm3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fm3ViewController.swift; sourceTree = "<group>"; };
+		D64A70B227F511B50012C7F6 /* PassportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportViewController.swift; sourceTree = "<group>"; };
+		D64A70B427F511D10012C7F6 /* PswViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PswViewController.swift; sourceTree = "<group>"; };
+		D64A70B627F511E90012C7F6 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		D64A70B827F512030012C7F6 /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
 		7FE4AC7327F28D3500F32EBB /* EndAddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndAddContactViewController.swift; sourceTree = "<group>"; };
 		D64F90D127D1861F005F12F1 /* SingInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInViewController.swift; sourceTree = "<group>"; };
 		D69131F327ED27EF00D56CED /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +84,7 @@
 		E0E24F1C27BEFAF600E629F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0E24F1F27BEFAF600E629F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0E24F2127BEFAF600E629F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3410D6527F3B12E00678ADD /* vWelcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vWelcome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +98,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D64A709327F18A490012C7F6 /* AddContact */ = {
+			isa = PBXGroup;
+			children = (
+				D64A709427F18A650012C7F6 /* ViewModel */,
+				D64A709527F18A7B0012C7F6 /* View */,
+			);
+			name = AddContact;
+			sourceTree = "<group>";
+		};
+		D64A709427F18A650012C7F6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		D64A709527F18A7B0012C7F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D64A709627F18ABB0012C7F6 /* AddClabeViewController.swift */,
+				D64A709827F18AD90012C7F6 /* AddCardOpViewController.swift */,
+				D64A70AA27F5111B0012C7F6 /* VerificationViewController.swift */,
+				D64A70AC27F5115B0012C7F6 /* IdentityViewController.swift */,
+				D64A70AE27F511770012C7F6 /* IneViewController.swift */,
+				D64A70B027F5119B0012C7F6 /* Fm3ViewController.swift */,
+				D64A70B227F511B50012C7F6 /* PassportViewController.swift */,
+				D64A70B427F511D10012C7F6 /* PswViewController.swift */,
+				D64A70B627F511E90012C7F6 /* LoadingViewController.swift */,
+				D64A70B827F512030012C7F6 /* ConfirmViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		7FE4AC6F27F28C1800F32EBB /* Dialogs */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				E0E24F1727BEFAF400E629F8 /* WelcomeViewController.swift */,
+				F3410D6527F3B12E00678ADD /* vWelcome.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -260,6 +316,7 @@
 				7FE4AC6F27F28C1800F32EBB /* Dialogs */,
 				E0AB2BA927ED57A600BE2103 /* Welcome */,
 				D69131F527ED280000D56CED /* Home */,
+				D64A709327F18A490012C7F6 /* AddContact */,
 				D64F90CE27D185D7005F12F1 /* Sign Up */,
 				E0DAB9D827C08494004641EE /* SingIn */,
 			);
@@ -398,21 +455,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D64A70B927F512030012C7F6 /* ConfirmViewController.swift in Sources */,
+				D64A70AB27F5111B0012C7F6 /* VerificationViewController.swift in Sources */,
 				E094B3CD27D19C00001F0BF4 /* UIViewControllerExtensions.swift in Sources */,
 				E0B0F5D227CF1C5100AFB606 /* CustomTextField.swift in Sources */,
 				E0B0F5D727CF238100AFB606 /* StringsSP.swift in Sources */,
 				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
+				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
+				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
+				D64A70B127F5119B0012C7F6 /* Fm3ViewController.swift in Sources */,
 				D69131F927ED283A00D56CED /* HomeViewController.swift in Sources */,
+				D64A70AD27F5115B0012C7F6 /* IdentityViewController.swift in Sources */,
 				E0B0F5D427CF1CE300AFB606 /* UIViewExtensions.swift in Sources */,
+				D64A709727F18ABB0012C7F6 /* AddClabeViewController.swift in Sources */,
+				D64A70B327F511B50012C7F6 /* PassportViewController.swift in Sources */,
+				D64A709927F18AD90012C7F6 /* AddCardOpViewController.swift in Sources */,
+				D64A70B527F511D10012C7F6 /* PswViewController.swift in Sources */,
 				E0B0F5C527CF065A00AFB606 /* BaseUIViewController.swift in Sources */,
 				E0E24F1427BEFAF400E629F8 /* AppDelegate.swift in Sources */,
 				D69131FB27EE53F100D56CED /* DataViewController.swift in Sources */,
 				E0B0F5DA27CF248E00AFB606 /* Dimensions.swift in Sources */,
+				D64A70B727F511E90012C7F6 /* LoadingViewController.swift in Sources */,
 				E094B3C727D18D33001F0BF4 /* Drawable.swift in Sources */,
 				E0B0F5E127D06BAA00AFB606 /* UILabelExtensions.swift in Sources */,
 				D64F90D227D1861F005F12F1 /* SingInViewController.swift in Sources */,
 				D69131F427ED27EF00D56CED /* SignUpViewController.swift in Sources */,
 				E0B0F5DF27D068A000AFB606 /* FontSize.swift in Sources */,
+				D64A70AF27F511770012C7F6 /* IneViewController.swift in Sources */,
+				F3410D6627F3B12E00678ADD /* vWelcome.swift in Sources */,
 				E0E24F1627BEFAF400E629F8 /* SceneDelegate.swift in Sources */,
 				E0B0F5DC27D0627D00AFB606 /* UIBUttonExtensions.swift in Sources */,
 				E0B0F5CE27CF137400AFB606 /* ConstraintExtensions.swift in Sources */,

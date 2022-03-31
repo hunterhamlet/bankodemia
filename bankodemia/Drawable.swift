@@ -15,4 +15,5 @@ class Drawable{
     
     //MARK: END ADD CONTACT
     static let icFinalcontact = "ic_final_contacts"
+    static let icForward = "ic_foward"
 }

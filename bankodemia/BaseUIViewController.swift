@@ -19,6 +19,9 @@ open class BaseUIViewController: UIViewController {
     private lazy var ivMainLogo: UIImageView = UIImageView()
     private lazy var ivBack: UIImageView = UIImageView()
     private lazy var lBackTitle: UILabel = UILabel()
+    //private lazy var ivAddContact: UIImageView = UIImageView()
+    //private lazy var lEndAddContact : UILabel = UILabel()
+    //private lazy var lSuccessAddContact: UILabel = UILabel()
     
     var titleBack: String = ""
     
@@ -26,6 +29,7 @@ open class BaseUIViewController: UIViewController {
         view.backgroundColor = Theme.Color.background
         addMainLogo()
         addBackContainer()
+        //EndAddContact()
     }
 
     /*
@@ -63,7 +67,9 @@ open class BaseUIViewController: UIViewController {
         lBackTitle.applyDarkStyle(fontSize: FontSize.size10)
         lBackTitle.addAnchorsAndSize(width: nil, height: nil, left: nil, top: Dimensions.grid4_5, right: nil, bottom: nil, withAnchor: .top, relativeToView: ivMainLogo)
         lBackTitle.addAnchors(left: Dimensions.grid4, top: nil, right: nil, bottom: nil, withAnchor: .left, relativeToView: ivBack)
+        
     }
+    
     
     func hideBackButton() {
         ivBack.isHidden = true

@@ -34,4 +34,10 @@ class StringSP {
     
     static let onlyProbe = "klashdhasdjhasjdhad"
     
+    
+    //MARK: End Add Contact
+    static let lSuccessAddContact = "Tu contacto fue agregado con éxito"
+    //static let buttonDataText   = "Volver a inicio"
+    
+    
 }

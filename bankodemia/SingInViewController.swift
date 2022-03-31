@@ -58,6 +58,7 @@ class SingInViewController: BaseUIViewController {
     @objc private func moveToHome() {
         let homeScreen = HomeViewController()
         moveTo(screen: homeScreen, showStyle: .fullScreen)
+        
     }
 
 }

@@ -12,4 +12,5 @@ class Drawable{
     static let logoBankodemia = "ic_logo"
     static let logoWlcome = "ic_welcome_image"
     static let icBack = "ic_back"
+    static let icForward = "ic_foward"
 }

@@ -41,4 +41,12 @@ extension UIButton {
         //self.layer.cornerRadius = Dimensions.grid0
     }
     
+    func applyTextBlackGrayStyle(fontSize : CGFloat = FontSize.defaulSize) {
+        self.setTitleColor(Theme.Color.darkG, for: .normal)
+        self.layer.borderWidth = Dimensions.grid0
+        //self.layer.borderColor = Theme.Color.blue.cgColor
+        self.titleLabel?.font = UIFont(name: "Arial", size: fontSize)
+        //self.layer.cornerRadius = Dimensions.grid0
+        self.titleLabel?.textAlignment = NSTextAlignment.left
+    }
 }

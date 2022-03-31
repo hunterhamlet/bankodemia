@@ -10,6 +10,14 @@
 		5E74B1FA4F7E3541D8858074 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		D64A709727F18ABB0012C7F6 /* AddClabeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A709627F18ABB0012C7F6 /* AddClabeViewController.swift */; };
 		D64A709927F18AD90012C7F6 /* AddCardOpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A709827F18AD90012C7F6 /* AddCardOpViewController.swift */; };
+		D64A70AB27F5111B0012C7F6 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70AA27F5111B0012C7F6 /* VerificationViewController.swift */; };
+		D64A70AD27F5115B0012C7F6 /* IdentityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70AC27F5115B0012C7F6 /* IdentityViewController.swift */; };
+		D64A70AF27F511770012C7F6 /* IneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70AE27F511770012C7F6 /* IneViewController.swift */; };
+		D64A70B127F5119B0012C7F6 /* Fm3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70B027F5119B0012C7F6 /* Fm3ViewController.swift */; };
+		D64A70B327F511B50012C7F6 /* PassportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70B227F511B50012C7F6 /* PassportViewController.swift */; };
+		D64A70B527F511D10012C7F6 /* PswViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70B427F511D10012C7F6 /* PswViewController.swift */; };
+		D64A70B727F511E90012C7F6 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70B627F511E90012C7F6 /* LoadingViewController.swift */; };
+		D64A70B927F512030012C7F6 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70B827F512030012C7F6 /* ConfirmViewController.swift */; };
 		D64F90D227D1861F005F12F1 /* SingInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F90D127D1861F005F12F1 /* SingInViewController.swift */; };
 		D69131F427ED27EF00D56CED /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69131F327ED27EF00D56CED /* SignUpViewController.swift */; };
 		D69131F927ED283A00D56CED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69131F827ED283A00D56CED /* HomeViewController.swift */; };
@@ -39,6 +47,14 @@
 /* Begin PBXFileReference section */
 		D64A709627F18ABB0012C7F6 /* AddClabeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClabeViewController.swift; sourceTree = "<group>"; };
 		D64A709827F18AD90012C7F6 /* AddCardOpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardOpViewController.swift; sourceTree = "<group>"; };
+		D64A70AA27F5111B0012C7F6 /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		D64A70AC27F5115B0012C7F6 /* IdentityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityViewController.swift; sourceTree = "<group>"; };
+		D64A70AE27F511770012C7F6 /* IneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IneViewController.swift; sourceTree = "<group>"; };
+		D64A70B027F5119B0012C7F6 /* Fm3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fm3ViewController.swift; sourceTree = "<group>"; };
+		D64A70B227F511B50012C7F6 /* PassportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportViewController.swift; sourceTree = "<group>"; };
+		D64A70B427F511D10012C7F6 /* PswViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PswViewController.swift; sourceTree = "<group>"; };
+		D64A70B627F511E90012C7F6 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		D64A70B827F512030012C7F6 /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
 		D64F90D127D1861F005F12F1 /* SingInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInViewController.swift; sourceTree = "<group>"; };
 		D69131F327ED27EF00D56CED /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D69131F827ED283A00D56CED /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +117,14 @@
 			children = (
 				D64A709627F18ABB0012C7F6 /* AddClabeViewController.swift */,
 				D64A709827F18AD90012C7F6 /* AddCardOpViewController.swift */,
+				D64A70AA27F5111B0012C7F6 /* VerificationViewController.swift */,
+				D64A70AC27F5115B0012C7F6 /* IdentityViewController.swift */,
+				D64A70AE27F511770012C7F6 /* IneViewController.swift */,
+				D64A70B027F5119B0012C7F6 /* Fm3ViewController.swift */,
+				D64A70B227F511B50012C7F6 /* PassportViewController.swift */,
+				D64A70B427F511D10012C7F6 /* PswViewController.swift */,
+				D64A70B627F511E90012C7F6 /* LoadingViewController.swift */,
+				D64A70B827F512030012C7F6 /* ConfirmViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -412,25 +436,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D64A70B927F512030012C7F6 /* ConfirmViewController.swift in Sources */,
+				D64A70AB27F5111B0012C7F6 /* VerificationViewController.swift in Sources */,
 				E094B3CD27D19C00001F0BF4 /* UIViewControllerExtensions.swift in Sources */,
 				E0B0F5D227CF1C5100AFB606 /* CustomTextField.swift in Sources */,
 				E0B0F5D727CF238100AFB606 /* StringsSP.swift in Sources */,
 				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
 				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
 				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
+				D64A70B127F5119B0012C7F6 /* Fm3ViewController.swift in Sources */,
 				D69131F927ED283A00D56CED /* HomeViewController.swift in Sources */,
+				D64A70AD27F5115B0012C7F6 /* IdentityViewController.swift in Sources */,
 				E0B0F5D427CF1CE300AFB606 /* UIViewExtensions.swift in Sources */,
 				D64A709727F18ABB0012C7F6 /* AddClabeViewController.swift in Sources */,
+				D64A70B327F511B50012C7F6 /* PassportViewController.swift in Sources */,
 				D64A709927F18AD90012C7F6 /* AddCardOpViewController.swift in Sources */,
+				D64A70B527F511D10012C7F6 /* PswViewController.swift in Sources */,
 				E0B0F5C527CF065A00AFB606 /* BaseUIViewController.swift in Sources */,
 				E0E24F1427BEFAF400E629F8 /* AppDelegate.swift in Sources */,
 				D69131FB27EE53F100D56CED /* DataViewController.swift in Sources */,
 				E0B0F5DA27CF248E00AFB606 /* Dimensions.swift in Sources */,
+				D64A70B727F511E90012C7F6 /* LoadingViewController.swift in Sources */,
 				E094B3C727D18D33001F0BF4 /* Drawable.swift in Sources */,
 				E0B0F5E127D06BAA00AFB606 /* UILabelExtensions.swift in Sources */,
 				D64F90D227D1861F005F12F1 /* SingInViewController.swift in Sources */,
 				D69131F427ED27EF00D56CED /* SignUpViewController.swift in Sources */,
 				E0B0F5DF27D068A000AFB606 /* FontSize.swift in Sources */,
+				D64A70AF27F511770012C7F6 /* IneViewController.swift in Sources */,
 				F3410D6627F3B12E00678ADD /* vWelcome.swift in Sources */,
 				E0E24F1627BEFAF400E629F8 /* SceneDelegate.swift in Sources */,
 				E0B0F5DC27D0627D00AFB606 /* UIBUttonExtensions.swift in Sources */,

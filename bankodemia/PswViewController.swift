@@ -53,7 +53,7 @@ class PswViewController: BaseUIViewController {
 }
 
 @objc private func moveToHome() {
-    let homeScreen = HomeViewController()
+    let homeScreen = LoadingViewController()
     moveTo(screen: homeScreen, showStyle: .fullScreen)
 }
 

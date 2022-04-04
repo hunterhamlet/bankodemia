@@ -18,8 +18,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.windowScene = scene
        // let welcomeVC = vWelcome()
-//        let welcomeVC = WelcomeViewController()
-        let welcomeVC = ConfirmViewController()
+        let welcomeVC = WelcomeViewController()
+//        let welcomeVC = ServicesViewController()
         window?.rootViewController = welcomeVC
         window?.makeKeyAndVisible()
     }

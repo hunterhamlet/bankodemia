@@ -16,4 +16,7 @@ class FontSize {
     static let size16 = 16.0
     static let size18 = 18.0
     static let size20 = 20.0
+    static let size22 = 22.0
+
 }
+

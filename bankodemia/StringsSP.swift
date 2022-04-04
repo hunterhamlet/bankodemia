@@ -30,6 +30,28 @@ class StringSP {
     static let continueFunc      = "Confinuar"
     
     
+    //MARK: Home Screen
+    
+    static let transferDone   = "Tu transaccion ha sido finalizada."
+    static let cardLabel = "TARJETA"
+    static let cardNumLabel = "No. de Tarjeta"
+    static let cardNumeration = "5439 2464 7664 2003"
+    static let lValidLabel = "Vigencia"
+    static let lValidLabel2 = "11/26"
+    static let lCvvLabel = "CVV"
+    static let lCvvLabel2 = "125"
+    static let lServicesLabel = "SERVICIOS"
+    static let lAddPhoneLabel = "   Recarga de celular"
+    static let lAddPhoneLabel2 = "   Telcel, At&t, Movistar"
+    static let lAddPlanLabel = "   Plan Móvil"
+    static let lAddPlanLabel2 = "   Telcel, At&t, Movistar"
+    static let lAddGasLabel = "   Internet / TV / Teléfono "
+    static let lAddGasLabel2 = "   Telmex, Izzi, TotalPlay"
+    static let lAddcredit = "   Tarjetas de Credito "
+    static let lAddcredit2 = "    BBVA, Santander, Banorte, Banamex"
+    static let lAddStore = "   Tiendas departamentales "
+    static let lAddStore2 = "    Liverpool, Sears, Palacio de Hierro"
+    
     //MARK: SignIn and SignUp creen
     static let headSignInText   = "Escribe el correo y telefono con el que\nte registraste, a traves de estos te\n enviaremos el acceso"
     static let bottomSignInText = "¿Necesitas ayuda? Escribenos a"
@@ -71,9 +93,8 @@ class StringSP {
     static let waitLabel = "Espera un momento, estamos enviando tus datos."
     static let doneLabel = "¡Listo! Recibimos tu información. Usualmente tardamos unos minutos en verificar, pero en caso de tener algún problema, nos comunicaremos contigo."
     static let thanksLabel = "¡GRACIAS POR USAR BANKODEMIA!"
-    static let bBackToStart = "Volver al Inicio"
-    
-    
+    static let bBackToStart = "Volver a Inicio"
+   
    
     
     

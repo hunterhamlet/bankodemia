@@ -45,7 +45,7 @@ class VerificationViewController: BaseUIViewController {
 
 }
     @objc private func moveToIdentity() {
-        let dataScreen = DataViewController()
+        let dataScreen = IdentityViewController()
         dataScreen.titleBack = StringSP.checkID //titilo lo pone a donde va la view
         moveTo(screen: dataScreen, showStyle: .fullScreen)
     }

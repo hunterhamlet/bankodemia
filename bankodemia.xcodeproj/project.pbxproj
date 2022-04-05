@@ -19,6 +19,9 @@
 		D64A70B727F511E90012C7F6 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70B627F511E90012C7F6 /* LoadingViewController.swift */; };
 		D64A70B927F512030012C7F6 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70B827F512030012C7F6 /* ConfirmViewController.swift */; };
 		7FE4AC7427F28D3500F32EBB /* EndAddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE4AC7327F28D3500F32EBB /* EndAddContactViewController.swift */; };
+		D64A70C327FA31C00012C7F6 /* TransferDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70C227FA31C00012C7F6 /* TransferDoneViewController.swift */; };
+		D64A70C527FA3A8A0012C7F6 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70C427FA3A8A0012C7F6 /* CardViewController.swift */; };
+		D64A70C727FA59160012C7F6 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70C627FA59160012C7F6 /* ServicesViewController.swift */; };
 		D64F90D227D1861F005F12F1 /* SingInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F90D127D1861F005F12F1 /* SingInViewController.swift */; };
 		D69131F427ED27EF00D56CED /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69131F327ED27EF00D56CED /* SignUpViewController.swift */; };
 		D69131F927ED283A00D56CED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69131F827ED283A00D56CED /* HomeViewController.swift */; };
@@ -57,6 +60,9 @@
 		D64A70B627F511E90012C7F6 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		D64A70B827F512030012C7F6 /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
 		7FE4AC7327F28D3500F32EBB /* EndAddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndAddContactViewController.swift; sourceTree = "<group>"; };
+		D64A70C227FA31C00012C7F6 /* TransferDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferDoneViewController.swift; sourceTree = "<group>"; };
+		D64A70C427FA3A8A0012C7F6 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		D64A70C627FA59160012C7F6 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
 		D64F90D127D1861F005F12F1 /* SingInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInViewController.swift; sourceTree = "<group>"; };
 		D69131F327ED27EF00D56CED /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D69131F827ED283A00D56CED /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -192,6 +198,9 @@
 			isa = PBXGroup;
 			children = (
 				D69131F827ED283A00D56CED /* HomeViewController.swift */,
+				D64A70C227FA31C00012C7F6 /* TransferDoneViewController.swift */,
+				D64A70C427FA3A8A0012C7F6 /* CardViewController.swift */,
+				D64A70C627FA59160012C7F6 /* ServicesViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -461,8 +470,10 @@
 				E0B0F5D227CF1C5100AFB606 /* CustomTextField.swift in Sources */,
 				E0B0F5D727CF238100AFB606 /* StringsSP.swift in Sources */,
 				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
+				D64A70C727FA59160012C7F6 /* ServicesViewController.swift in Sources */,
 				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
 				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
+				D64A70C527FA3A8A0012C7F6 /* CardViewController.swift in Sources */,
 				D64A70B127F5119B0012C7F6 /* Fm3ViewController.swift in Sources */,
 				D69131F927ED283A00D56CED /* HomeViewController.swift in Sources */,
 				D64A70AD27F5115B0012C7F6 /* IdentityViewController.swift in Sources */,
@@ -485,6 +496,7 @@
 				F3410D6627F3B12E00678ADD /* vWelcome.swift in Sources */,
 				E0E24F1627BEFAF400E629F8 /* SceneDelegate.swift in Sources */,
 				E0B0F5DC27D0627D00AFB606 /* UIBUttonExtensions.swift in Sources */,
+				D64A70C327FA31C00012C7F6 /* TransferDoneViewController.swift in Sources */,
 				E0B0F5CE27CF137400AFB606 /* ConstraintExtensions.swift in Sources */,
 				7FE4AC7427F28D3500F32EBB /* EndAddContactViewController.swift in Sources */,
 				E0B0F5C927CF07A700AFB606 /* Theme.swift in Sources */,

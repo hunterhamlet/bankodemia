@@ -11,6 +11,7 @@ class Dimensions {
     
     //MARK: Dimensions for margins
     static let grid0 = 0.0
+    static let grid0_1 = 1.0
     static let grid0_5 = 2.0
     static let grid1 = 4.0
     static let grid1_5 = 6.0
@@ -31,6 +32,7 @@ class Dimensions {
     //MARK: Specific dimensions
     static let tilHeight = 70.0
     static let btHeight = 42.0
+    static let btHeightD = 62.0
     static let tilLargeHeight = 130.0
     
 }

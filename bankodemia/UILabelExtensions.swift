@@ -15,6 +15,11 @@ extension UILabel {
         self.textColor = .darkText
     }
     
+    func applyBoldDarkStyle(fontSize: CGFloat = FontSize.defaulSize) {
+        self.font = UIFont(name: Theme.Font.popinsMedium, size: fontSize)
+        self.textColor = .darkText
+    }
+    
     func applyLightStyle(fontSize: CGFloat = FontSize.defaulSize) {
         self.font = UIFont(name: Theme.Font.popinsMedium, size: fontSize)
         self.textColor = .white
@@ -32,6 +37,12 @@ extension UILabel {
         self.font = UIFont(name: Theme.Font.popinsMedium, size: fontSize)
         self.textColor = .purple
     }
+    
+    func applyBlueStyle(fontSize: CGFloat = FontSize.defaulSize) {
+        self.font = UIFont(name: Theme.Font.popinsMedium, size: fontSize)
+        self.textColor = Theme.Color.blue
+    }
+    
     
     
 }

@@ -15,9 +15,12 @@ class WelcomeViewController: UIViewController {
     private lazy var btCreateAccount = UIButton()
     private lazy var btInitSession = UIButton()
     
+    private var viewModel: WelcomeViewModel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         initUI()
+        viewModel?.onlyProbe()
     }
     
     private func initUI() {

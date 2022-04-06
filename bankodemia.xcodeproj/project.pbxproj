@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5E74B1FA4F7E3541D8858074 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		7FE4AC7427F28D3500F32EBB /* EndAddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE4AC7327F28D3500F32EBB /* EndAddContactViewController.swift */; };
 		D64A709727F18ABB0012C7F6 /* AddClabeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A709627F18ABB0012C7F6 /* AddClabeViewController.swift */; };
 		D64A709927F18AD90012C7F6 /* AddCardOpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A709827F18AD90012C7F6 /* AddCardOpViewController.swift */; };
 		D64A70AB27F5111B0012C7F6 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70AA27F5111B0012C7F6 /* VerificationViewController.swift */; };
@@ -18,7 +19,6 @@
 		D64A70B527F511D10012C7F6 /* PswViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70B427F511D10012C7F6 /* PswViewController.swift */; };
 		D64A70B727F511E90012C7F6 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70B627F511E90012C7F6 /* LoadingViewController.swift */; };
 		D64A70B927F512030012C7F6 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70B827F512030012C7F6 /* ConfirmViewController.swift */; };
-		7FE4AC7427F28D3500F32EBB /* EndAddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE4AC7327F28D3500F32EBB /* EndAddContactViewController.swift */; };
 		D64A70C327FA31C00012C7F6 /* TransferDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70C227FA31C00012C7F6 /* TransferDoneViewController.swift */; };
 		D64A70C527FA3A8A0012C7F6 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70C427FA3A8A0012C7F6 /* CardViewController.swift */; };
 		D64A70C727FA59160012C7F6 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64A70C627FA59160012C7F6 /* ServicesViewController.swift */; };
@@ -38,6 +38,10 @@
 		E0B0F5DC27D0627D00AFB606 /* UIBUttonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F5DB27D0627D00AFB606 /* UIBUttonExtensions.swift */; };
 		E0B0F5DF27D068A000AFB606 /* FontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F5DE27D068A000AFB606 /* FontSize.swift */; };
 		E0B0F5E127D06BAA00AFB606 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F5E027D06BAA00AFB606 /* UILabelExtensions.swift */; };
+		E0B7EF8D27FD067900E62071 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E0B7EF8C27FD067900E62071 /* Alamofire */; };
+		E0B7EF9027FD075200E62071 /* UIView-Shimmer in Frameworks */ = {isa = PBXBuildFile; productRef = E0B7EF8F27FD075200E62071 /* UIView-Shimmer */; };
+		E0B7EF9927FD281C00E62071 /* OnlyProbeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B7EF9827FD281C00E62071 /* OnlyProbeUseCase.swift */; };
+		E0B7EF9B27FD288C00E62071 /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B7EF9A27FD288C00E62071 /* WelcomeViewModel.swift */; };
 		E0BCAF4327ED6C17003890A1 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BCAF4227ED6C17003890A1 /* UIColorExtensions.swift */; };
 		E0E24F1427BEFAF400E629F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E24F1327BEFAF400E629F8 /* AppDelegate.swift */; };
 		E0E24F1627BEFAF400E629F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E24F1527BEFAF400E629F8 /* SceneDelegate.swift */; };
@@ -45,10 +49,18 @@
 		E0E24F1B27BEFAF400E629F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E24F1927BEFAF400E629F8 /* Main.storyboard */; };
 		E0E24F1D27BEFAF600E629F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E24F1C27BEFAF600E629F8 /* Assets.xcassets */; };
 		E0E24F2027BEFAF600E629F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E24F1E27BEFAF600E629F8 /* LaunchScreen.storyboard */; };
-		F3410D6627F3B12E00678ADD /* vWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3410D6527F3B12E00678ADD /* vWelcome.swift */; };
+		E0E43E8027FD37B60052BE12 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = E0E43E7F27FD37B60052BE12 /* Swinject */; };
+		E0E43E8327FD58C10052BE12 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E43E8227FD58C10052BE12 /* TransactionCell.swift */; };
+		E0E43E8627FD593C0052BE12 /* TransactionUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E43E8527FD593C0052BE12 /* TransactionUI.swift */; };
+		E0E43E8827FD62CF0052BE12 /* DetailTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E43E8727FD62CF0052BE12 /* DetailTransactionViewController.swift */; };
+		E0E43E8A27FD6D010052BE12 /* AccountsToSendMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E43E8927FD6D010052BE12 /* AccountsToSendMoneyViewController.swift */; };
+		E0E43E8C27FD6EA60052BE12 /* AccountUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E43E8B27FD6EA60052BE12 /* AccountUI.swift */; };
+		E0E43E8E27FD6EF30052BE12 /* UITableCellExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E43E8D27FD6EF30052BE12 /* UITableCellExtensions.swift */; };
+		E0E43E9027FD6FB30052BE12 /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E43E8F27FD6FB30052BE12 /* AccountCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7FE4AC7327F28D3500F32EBB /* EndAddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndAddContactViewController.swift; sourceTree = "<group>"; };
 		D64A709627F18ABB0012C7F6 /* AddClabeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClabeViewController.swift; sourceTree = "<group>"; };
 		D64A709827F18AD90012C7F6 /* AddCardOpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardOpViewController.swift; sourceTree = "<group>"; };
 		D64A70AA27F5111B0012C7F6 /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +71,6 @@
 		D64A70B427F511D10012C7F6 /* PswViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PswViewController.swift; sourceTree = "<group>"; };
 		D64A70B627F511E90012C7F6 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		D64A70B827F512030012C7F6 /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
-		7FE4AC7327F28D3500F32EBB /* EndAddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndAddContactViewController.swift; sourceTree = "<group>"; };
 		D64A70C227FA31C00012C7F6 /* TransferDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferDoneViewController.swift; sourceTree = "<group>"; };
 		D64A70C427FA3A8A0012C7F6 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		D64A70C627FA59160012C7F6 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +91,8 @@
 		E0B0F5DB27D0627D00AFB606 /* UIBUttonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBUttonExtensions.swift; sourceTree = "<group>"; };
 		E0B0F5DE27D068A000AFB606 /* FontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSize.swift; sourceTree = "<group>"; };
 		E0B0F5E027D06BAA00AFB606 /* UILabelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
+		E0B7EF9827FD281C00E62071 /* OnlyProbeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyProbeUseCase.swift; sourceTree = "<group>"; };
+		E0B7EF9A27FD288C00E62071 /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
 		E0BCAF4227ED6C17003890A1 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		E0DAB9DB27C084EF004641EE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E0E24F1027BEFAF400E629F8 /* bankodemia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bankodemia.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,7 +103,13 @@
 		E0E24F1C27BEFAF600E629F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0E24F1F27BEFAF600E629F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0E24F2127BEFAF600E629F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3410D6527F3B12E00678ADD /* vWelcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vWelcome.swift; sourceTree = "<group>"; };
+		E0E43E8227FD58C10052BE12 /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		E0E43E8527FD593C0052BE12 /* TransactionUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionUI.swift; sourceTree = "<group>"; };
+		E0E43E8727FD62CF0052BE12 /* DetailTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTransactionViewController.swift; sourceTree = "<group>"; };
+		E0E43E8927FD6D010052BE12 /* AccountsToSendMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsToSendMoneyViewController.swift; sourceTree = "<group>"; };
+		E0E43E8B27FD6EA60052BE12 /* AccountUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountUI.swift; sourceTree = "<group>"; };
+		E0E43E8D27FD6EF30052BE12 /* UITableCellExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableCellExtensions.swift; sourceTree = "<group>"; };
+		E0E43E8F27FD6FB30052BE12 /* AccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +117,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0B7EF8D27FD067900E62071 /* Alamofire in Frameworks */,
+				E0B7EF9027FD075200E62071 /* UIView-Shimmer in Frameworks */,
+				E0E43E8027FD37B60052BE12 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7FE4AC6F27F28C1800F32EBB /* Dialogs */ = {
+			isa = PBXGroup;
+			children = (
+				7FE4AC7027F28C3000F32EBB /* Views */,
+			);
+			name = Dialogs;
+			sourceTree = "<group>";
+		};
+		7FE4AC7027F28C3000F32EBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7FE4AC7327F28D3500F32EBB /* EndAddContactViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		D64A709327F18A490012C7F6 /* AddContact */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,22 +175,6 @@
 			name = View;
 			sourceTree = "<group>";
 		};
-		7FE4AC6F27F28C1800F32EBB /* Dialogs */ = {
-			isa = PBXGroup;
-			children = (
-				7FE4AC7027F28C3000F32EBB /* Views */,
-			);
-			name = Dialogs;
-			sourceTree = "<group>";
-		};
-		7FE4AC7027F28C3000F32EBB /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				7FE4AC7327F28D3500F32EBB /* EndAddContactViewController.swift */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
 		D64F90CE27D185D7005F12F1 /* Sign Up */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +203,7 @@
 		D69131F527ED280000D56CED /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E0E43E8127FD58A40052BE12 /* TableCell */,
 				D69131F627ED280C00D56CED /* ViewModel */,
 				D69131F727ED281F00D56CED /* View */,
 			);
@@ -201,6 +224,8 @@
 				D64A70C227FA31C00012C7F6 /* TransferDoneViewController.swift */,
 				D64A70C427FA3A8A0012C7F6 /* CardViewController.swift */,
 				D64A70C627FA59160012C7F6 /* ServicesViewController.swift */,
+				E0E43E8727FD62CF0052BE12 /* DetailTransactionViewController.swift */,
+				E0E43E8927FD6D010052BE12 /* AccountsToSendMoneyViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -225,6 +250,7 @@
 		E0AB2BAA27ED57B300BE2103 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				E0B7EF9A27FD288C00E62071 /* WelcomeViewModel.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -233,7 +259,6 @@
 			isa = PBXGroup;
 			children = (
 				E0E24F1727BEFAF400E629F8 /* WelcomeViewController.swift */,
-				F3410D6527F3B12E00678ADD /* vWelcome.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -275,6 +300,7 @@
 				E0B0F5E027D06BAA00AFB606 /* UILabelExtensions.swift */,
 				E094B3CC27D19C00001F0BF4 /* UIViewControllerExtensions.swift */,
 				E0BCAF4227ED6C17003890A1 /* UIColorExtensions.swift */,
+				E0E43E8D27FD6EF30052BE12 /* UITableCellExtensions.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -317,6 +343,14 @@
 				E0B0F5DE27D068A000AFB606 /* FontSize.swift */,
 			);
 			name = FontSize;
+			sourceTree = "<group>";
+		};
+		E0B7EF9727FD27D400E62071 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				E0B7EF9827FD281C00E62071 /* OnlyProbeUseCase.swift */,
+			);
+			name = UseCases;
 			sourceTree = "<group>";
 		};
 		E0DAB9D727C08482004641EE /* Modules */ = {
@@ -376,6 +410,8 @@
 		E0E24F1227BEFAF400E629F8 /* bankodemia */ = {
 			isa = PBXGroup;
 			children = (
+				E0E43E8427FD59270052BE12 /* Models */,
+				E0B7EF9727FD27D400E62071 /* UseCases */,
 				E0B0F5D527CF236A00AFB606 /* Strings */,
 				E0B0F5D027CF1C2500AFB606 /* Widgets */,
 				E0B0F5CC27CF135500AFB606 /* Extensions */,
@@ -390,6 +426,24 @@
 				E0E24F2127BEFAF600E629F8 /* Info.plist */,
 			);
 			path = bankodemia;
+			sourceTree = "<group>";
+		};
+		E0E43E8127FD58A40052BE12 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				E0E43E8227FD58C10052BE12 /* TransactionCell.swift */,
+				E0E43E8F27FD6FB30052BE12 /* AccountCell.swift */,
+			);
+			name = TableCell;
+			sourceTree = "<group>";
+		};
+		E0E43E8427FD59270052BE12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E0E43E8527FD593C0052BE12 /* TransactionUI.swift */,
+				E0E43E8B27FD6EA60052BE12 /* AccountUI.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -408,6 +462,11 @@
 			dependencies = (
 			);
 			name = bankodemia;
+			packageProductDependencies = (
+				E0B7EF8C27FD067900E62071 /* Alamofire */,
+				E0B7EF8F27FD075200E62071 /* UIView-Shimmer */,
+				E0E43E7F27FD37B60052BE12 /* Swinject */,
+			);
 			productName = bankodemia;
 			productReference = E0E24F1027BEFAF400E629F8 /* bankodemia.app */;
 			productType = "com.apple.product-type.application";
@@ -436,6 +495,11 @@
 				Base,
 			);
 			mainGroup = E0E24F0727BEFAF400E629F8;
+			packageReferences = (
+				E0B7EF8B27FD067900E62071 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E0B7EF8E27FD075200E62071 /* XCRemoteSwiftPackageReference "UIView-Shimmer" */,
+				E0E43E7E27FD37B60052BE12 /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
 			productRefGroup = E0E24F1127BEFAF400E629F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -466,22 +530,27 @@
 			files = (
 				D64A70B927F512030012C7F6 /* ConfirmViewController.swift in Sources */,
 				D64A70AB27F5111B0012C7F6 /* VerificationViewController.swift in Sources */,
+				E0E43E8627FD593C0052BE12 /* TransactionUI.swift in Sources */,
 				E094B3CD27D19C00001F0BF4 /* UIViewControllerExtensions.swift in Sources */,
 				E0B0F5D227CF1C5100AFB606 /* CustomTextField.swift in Sources */,
+				E0B7EF9927FD281C00E62071 /* OnlyProbeUseCase.swift in Sources */,
 				E0B0F5D727CF238100AFB606 /* StringsSP.swift in Sources */,
 				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
 				D64A70C727FA59160012C7F6 /* ServicesViewController.swift in Sources */,
 				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
 				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
+				E0E43E9027FD6FB30052BE12 /* AccountCell.swift in Sources */,
 				D64A70C527FA3A8A0012C7F6 /* CardViewController.swift in Sources */,
 				D64A70B127F5119B0012C7F6 /* Fm3ViewController.swift in Sources */,
 				D69131F927ED283A00D56CED /* HomeViewController.swift in Sources */,
 				D64A70AD27F5115B0012C7F6 /* IdentityViewController.swift in Sources */,
 				E0B0F5D427CF1CE300AFB606 /* UIViewExtensions.swift in Sources */,
+				E0E43E8E27FD6EF30052BE12 /* UITableCellExtensions.swift in Sources */,
 				D64A709727F18ABB0012C7F6 /* AddClabeViewController.swift in Sources */,
 				D64A70B327F511B50012C7F6 /* PassportViewController.swift in Sources */,
 				D64A709927F18AD90012C7F6 /* AddCardOpViewController.swift in Sources */,
 				D64A70B527F511D10012C7F6 /* PswViewController.swift in Sources */,
+				E0E43E8C27FD6EA60052BE12 /* AccountUI.swift in Sources */,
 				E0B0F5C527CF065A00AFB606 /* BaseUIViewController.swift in Sources */,
 				E0E24F1427BEFAF400E629F8 /* AppDelegate.swift in Sources */,
 				D69131FB27EE53F100D56CED /* DataViewController.swift in Sources */,
@@ -491,16 +560,19 @@
 				E0B0F5E127D06BAA00AFB606 /* UILabelExtensions.swift in Sources */,
 				D64F90D227D1861F005F12F1 /* SingInViewController.swift in Sources */,
 				D69131F427ED27EF00D56CED /* SignUpViewController.swift in Sources */,
+				E0B7EF9B27FD288C00E62071 /* WelcomeViewModel.swift in Sources */,
+				E0E43E8A27FD6D010052BE12 /* AccountsToSendMoneyViewController.swift in Sources */,
 				E0B0F5DF27D068A000AFB606 /* FontSize.swift in Sources */,
 				D64A70AF27F511770012C7F6 /* IneViewController.swift in Sources */,
-				F3410D6627F3B12E00678ADD /* vWelcome.swift in Sources */,
 				E0E24F1627BEFAF400E629F8 /* SceneDelegate.swift in Sources */,
 				E0B0F5DC27D0627D00AFB606 /* UIBUttonExtensions.swift in Sources */,
 				D64A70C327FA31C00012C7F6 /* TransferDoneViewController.swift in Sources */,
 				E0B0F5CE27CF137400AFB606 /* ConstraintExtensions.swift in Sources */,
+				E0E43E8327FD58C10052BE12 /* TransactionCell.swift in Sources */,
 				7FE4AC7427F28D3500F32EBB /* EndAddContactViewController.swift in Sources */,
 				E0B0F5C927CF07A700AFB606 /* Theme.swift in Sources */,
 				E0BCAF4327ED6C17003890A1 /* UIColorExtensions.swift in Sources */,
+				E0E43E8827FD62CF0052BE12 /* DetailTransactionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,6 +790,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E0B7EF8B27FD067900E62071 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		E0B7EF8E27FD075200E62071 /* XCRemoteSwiftPackageReference "UIView-Shimmer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/omerfarukozturk/UIView-Shimmer.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		E0E43E7E27FD37B60052BE12 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E0B7EF8C27FD067900E62071 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0B7EF8B27FD067900E62071 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		E0B7EF8F27FD075200E62071 /* UIView-Shimmer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0B7EF8E27FD075200E62071 /* XCRemoteSwiftPackageReference "UIView-Shimmer" */;
+			productName = "UIView-Shimmer";
+		};
+		E0E43E7F27FD37B60052BE12 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0E43E7E27FD37B60052BE12 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E0E24F0827BEFAF400E629F8 /* Project object */;
 }

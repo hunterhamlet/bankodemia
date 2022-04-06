@@ -94,7 +94,19 @@ class StringSP {
     static let doneLabel = "¡Listo! Recibimos tu información. Usualmente tardamos unos minutos en verificar, pero en caso de tener algún problema, nos comunicaremos contigo."
     static let thanksLabel = "¡GRACIAS POR USAR BANKODEMIA!"
     static let bBackToStart = "Volver a Inicio"
-   
+    
+    //MARK: HOME
+    static let cashAvailable = "DINERO DISPONIBLE"
+    static let sendMoney = "Enviar"
+    static let recivedMoney = "Recibir"
+    
+    //MARK: DETAIL
+    static let detailTransaction = "DETALLE DE TRANSACCION"
+    static let dateAndHour = "FECHA Y HORA"
+    static let idTranaction = "ID DE TRANSACCIÓN"
+    static let concept = "CONCEPTO"
+    static let emiserAccount = "CUENTA EMISORA"
+    static let sendMoneyTitle = "ENVIAR DINERO"
    
     
     

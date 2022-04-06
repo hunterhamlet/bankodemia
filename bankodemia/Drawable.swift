@@ -23,4 +23,9 @@ class Drawable{
     static let iQuestion = "ic_question"
     static let iContact = "ic_contact"
     
+    //MARK: HOME
+    static let icUserIcon = "ic_user_icon"
+    static let icHelpIcon = "ic_help_icon"
+    static let addNewAccount = "ic_add_contact"
+    
 }

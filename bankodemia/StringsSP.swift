@@ -99,7 +99,13 @@ class StringSP {
     static let cashAvailable = "DINERO DISPONIBLE"
     static let sendMoney = "Enviar"
     static let recivedMoney = "Recibir"
-   
+    
+    //MARK: DETAIL
+    static let detailTransaction = "DETALLE DE TRANSACCION"
+    static let dateAndHour = "FECHA Y HORA"
+    static let idTranaction = "ID DE TRANSACCIÓN"
+    static let concept = "CONCEPTO"
+    static let emiserAccount = "CUENTA EMISORA"
    
     
     

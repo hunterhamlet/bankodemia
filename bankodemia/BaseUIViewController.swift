@@ -19,6 +19,8 @@ open class BaseUIViewController: UIViewController {
     private lazy var ivMainLogo: UIImageView = UIImageView()
     private lazy var ivBack: UIImageView = UIImageView()
     private lazy var lBackTitle: UILabel = UILabel()
+    private lazy var ivUserIcon: UIImageView = UIImageView()
+    private lazy var ivHelpIcon: UIImageView = UIImageView()
     
     var titleBack: String = ""
     
@@ -26,6 +28,18 @@ open class BaseUIViewController: UIViewController {
         view.backgroundColor = Theme.Color.background
         addMainLogo()
         addBackContainer()
+    }
+    
+    func addUserIcon() {
+        view.addSubview(ivUserIcon)
+        ivUserIcon.image = UIImage(named: Drawable.icUserIcon)
+        ivUserIcon.addAnchorsAndSize(width: Dimensions.grid7, height: Dimensions.grid7, left: Dimensions.grid7, top: Dimensions.topImageMargin, right: nil, bottom: nil, withAnchor: nil, relativeToView: nil)
+    }
+    
+    func addHelpIcon() {
+        view.addSubview(ivHelpIcon)
+        ivHelpIcon.image = UIImage(named: Drawable.icHelpIcon)
+        ivHelpIcon.addAnchorsAndSize(width: Dimensions.grid7, height: Dimensions.grid7, left: nil, top: Dimensions.topImageMargin, right: Dimensions.grid7, bottom: nil, withAnchor: nil, relativeToView: nil)
     }
 
     /*

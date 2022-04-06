@@ -9,14 +9,13 @@ import UIKit
 
 class HomeViewController: BaseUIViewController {
     
-    private lazy var ivUserIcon: UIImageView = UIImageView()
-    private lazy var ivHelpIcon: UIImageView = UIImageView()
     private lazy var lTitle: UILabel = UILabel()
     private lazy var lCashQuantity: UILabel = UILabel()
     private lazy var sendMoney: UIButton = UIButton()
     private lazy var recivedMoney: UIButton = UIButton()
     private lazy var transactionTable: UITableView = UITableView()
-    private let datasource : [TransactionUI] = [TransactionUI(title: "La guera", hour: "07:28 PM", amount: "15.72"), TransactionUI(title: "La guera 2", hour: "04:28 PM", amount: "30.72")]
+    private let datasource : [TransactionUI] = [TransactionUI(id: "47306BANKODER26012022011820676", concept: "La guera", hour: "07:28 PM", amount: "15.72", date: "25 de enero de 2022. 9:00 p.m.", emiserAccount: "Número de Cuenta 0000205214"),
+                                                TransactionUI(id: "47306BANKODER26012022011820676", concept: "La guera", hour: "07:28 PM", amount: "15.72", date: "25 de enero de 2022. 9:00 p.m.", emiserAccount: "Número de Cuenta 0000205214")]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,25 +24,13 @@ class HomeViewController: BaseUIViewController {
     
     private func initUI() {
         hideBackButton()
-        addUserIcon()
-        addHelpIcon()
         addLabelTitle()
         addCashQuantity()
+        addUserIcon()
+        addHelpIcon()
         addButtons()
         addTableView()
         addTransactionList()
-    }
-    
-    private func addUserIcon() {
-        view.addSubview(ivUserIcon)
-        ivUserIcon.image = UIImage(named: Drawable.icUserIcon)
-        ivUserIcon.addAnchorsAndSize(width: Dimensions.grid7, height: Dimensions.grid7, left: Dimensions.grid7, top: Dimensions.topImageMargin, right: nil, bottom: nil, withAnchor: nil, relativeToView: nil)
-    }
-    
-    private func addHelpIcon() {
-        view.addSubview(ivHelpIcon)
-        ivHelpIcon.image = UIImage(named: Drawable.icHelpIcon)
-        ivHelpIcon.addAnchorsAndSize(width: Dimensions.grid7, height: Dimensions.grid7, left: nil, top: Dimensions.topImageMargin, right: Dimensions.grid7, bottom: nil, withAnchor: nil, relativeToView: nil)
     }
     
     private func addLabelTitle() {
@@ -51,7 +38,7 @@ class HomeViewController: BaseUIViewController {
         lTitle.text = StringSP.cashAvailable
         lTitle.applyDarkStyle(fontSize: FontSize.size20)
         lTitle.addAnchorsAndSize(width: nil, height: nil, left: Dimensions.grid7, top: nil, right: nil, bottom: nil, withAnchor: nil, relativeToView: nil)
-        lTitle.addAnchors(left: nil, top: Dimensions.grid7, right: nil, bottom: nil, withAnchor: .top, relativeToView: ivUserIcon)
+        lTitle.addAnchors(left: nil, top: Dimensions.grid9, right: nil, bottom: nil, withAnchor: nil, relativeToView: nil)
     }
     
     private func addCashQuantity() {
@@ -119,6 +106,10 @@ extension HomeViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("Estoy en la seccion \(indexPath.section) en la celda \(indexPath.row)")
+        let detailScreen = DetailTransactionViewController()
+
+        detailScreen.transactionUi = datasource[indexPath.row]
+        moveTo(screen: detailScreen, showStyle: .fullScreen)
     }
     
 }

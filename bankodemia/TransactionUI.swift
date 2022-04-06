@@ -9,14 +9,20 @@ import Foundation
 
 class TransactionUI {
     
-    var title: String?
+    var id: String?
+    var concept: String?
     var hour: String?
     var amount: String?
+    var date: String?
+    var emiserAccount: String?
     
-    init(title: String, hour: String, amount: String) {
-        self.title = title
+    init(id: String, concept: String, hour: String, amount: String, date: String, emiserAccount: String) {
+        self.id = id
+        self.concept = concept
         self.hour = hour
         self.amount = amount
+        self.date = date
+        self.emiserAccount = emiserAccount
     }
     
 }

@@ -40,7 +40,7 @@ class TransacationCell: UITableViewCell {
         
         if let notNullTransaction = transactionUI {
             
-            lNameTransacion.text = notNullTransaction.title
+            lNameTransacion.text = notNullTransaction.concept
             lNameTransacion.applyDarkStyle(fontSize: FontSize.size18)
             lNameTransacion.addAnchorsAndSize(width: nil, height: nil, left: Dimensions.grid7, top: Dimensions.grid7, right: Dimensions.grid7, bottom: nil, withAnchor: nil, relativeToView: nil)
             

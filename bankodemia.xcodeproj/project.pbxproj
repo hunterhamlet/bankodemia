@@ -52,6 +52,7 @@
 		E0E43E8027FD37B60052BE12 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = E0E43E7F27FD37B60052BE12 /* Swinject */; };
 		E0E43E8327FD58C10052BE12 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E43E8227FD58C10052BE12 /* TransactionCell.swift */; };
 		E0E43E8627FD593C0052BE12 /* TransactionUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E43E8527FD593C0052BE12 /* TransactionUI.swift */; };
+		E0E43E8827FD62CF0052BE12 /* DetailTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E43E8727FD62CF0052BE12 /* DetailTransactionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +101,7 @@
 		E0E24F2127BEFAF600E629F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0E43E8227FD58C10052BE12 /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
 		E0E43E8527FD593C0052BE12 /* TransactionUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionUI.swift; sourceTree = "<group>"; };
+		E0E43E8727FD62CF0052BE12 /* DetailTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTransactionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +216,7 @@
 				D64A70C227FA31C00012C7F6 /* TransferDoneViewController.swift */,
 				D64A70C427FA3A8A0012C7F6 /* CardViewController.swift */,
 				D64A70C627FA59160012C7F6 /* ServicesViewController.swift */,
+				E0E43E8727FD62CF0052BE12 /* DetailTransactionViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -553,6 +556,7 @@
 				7FE4AC7427F28D3500F32EBB /* EndAddContactViewController.swift in Sources */,
 				E0B0F5C927CF07A700AFB606 /* Theme.swift in Sources */,
 				E0BCAF4327ED6C17003890A1 /* UIColorExtensions.swift in Sources */,
+				E0E43E8827FD62CF0052BE12 /* DetailTransactionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

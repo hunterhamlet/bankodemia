@@ -16,6 +16,8 @@ struct Theme {
         static let black = UIColor.black
         static let darkG = UIColor.darkGray
         static let gray = UIColor.gray
+        static let containerTable = UIColor(red: 229, green: 229, blue: 229)
+        
     }
     
     struct Font {

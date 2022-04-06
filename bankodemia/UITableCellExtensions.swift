@@ -15,7 +15,7 @@ extension UITableViewCell {
             self.backgroundColor = .white
         } else {
             //TODO: ADD GRAY COLOR
-            self.backgroundColor = .darkGray
+            self.backgroundColor =  Theme.Color.containerTable
         }
     }
     

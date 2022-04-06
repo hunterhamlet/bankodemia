@@ -107,6 +107,7 @@ class StringSP {
     static let concept = "CONCEPTO"
     static let emiserAccount = "CUENTA EMISORA"
     static let sendMoneyTitle = "ENVIAR DINERO"
+    static let transfer = "TRANSFERENCIA"
    
     
     

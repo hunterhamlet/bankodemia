@@ -28,6 +28,7 @@
 		D69131FB27EE53F100D56CED /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69131FA27EE53F100D56CED /* DataViewController.swift */; };
 		E094B3C727D18D33001F0BF4 /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094B3C627D18D33001F0BF4 /* Drawable.swift */; };
 		E094B3CD27D19C00001F0BF4 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094B3CC27D19C00001F0BF4 /* UIViewControllerExtensions.swift */; };
+		E0A4203427FE195500F35E19 /* TransferInfoConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A4203327FE195500F35E19 /* TransferInfoConfirmationViewController.swift */; };
 		E0B0F5C527CF065A00AFB606 /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F5C427CF065A00AFB606 /* BaseUIViewController.swift */; };
 		E0B0F5C927CF07A700AFB606 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F5C827CF07A700AFB606 /* Theme.swift */; };
 		E0B0F5CE27CF137400AFB606 /* ConstraintExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F5CD27CF137400AFB606 /* ConstraintExtensions.swift */; };
@@ -80,6 +81,7 @@
 		D69131FA27EE53F100D56CED /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		E094B3C627D18D33001F0BF4 /* Drawable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawable.swift; sourceTree = "<group>"; };
 		E094B3CC27D19C00001F0BF4 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		E0A4203327FE195500F35E19 /* TransferInfoConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferInfoConfirmationViewController.swift; sourceTree = "<group>"; };
 		E0B0F5C427CF065A00AFB606 /* BaseUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUIViewController.swift; sourceTree = "<group>"; };
 		E0B0F5C827CF07A700AFB606 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		E0B0F5CB27CF0ADB00AFB606 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 				D64A70C627FA59160012C7F6 /* ServicesViewController.swift */,
 				E0E43E8727FD62CF0052BE12 /* DetailTransactionViewController.swift */,
 				E0E43E8927FD6D010052BE12 /* AccountsToSendMoneyViewController.swift */,
+				E0A4203327FE195500F35E19 /* TransferInfoConfirmationViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -546,6 +549,7 @@
 				D64A70AD27F5115B0012C7F6 /* IdentityViewController.swift in Sources */,
 				E0B0F5D427CF1CE300AFB606 /* UIViewExtensions.swift in Sources */,
 				E0E43E8E27FD6EF30052BE12 /* UITableCellExtensions.swift in Sources */,
+				E0A4203427FE195500F35E19 /* TransferInfoConfirmationViewController.swift in Sources */,
 				D64A709727F18ABB0012C7F6 /* AddClabeViewController.swift in Sources */,
 				D64A70B327F511B50012C7F6 /* PassportViewController.swift in Sources */,
 				D64A709927F18AD90012C7F6 /* AddCardOpViewController.swift in Sources */,

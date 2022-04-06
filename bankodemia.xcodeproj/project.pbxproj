@@ -53,6 +53,10 @@
 		E0E43E8327FD58C10052BE12 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E43E8227FD58C10052BE12 /* TransactionCell.swift */; };
 		E0E43E8627FD593C0052BE12 /* TransactionUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E43E8527FD593C0052BE12 /* TransactionUI.swift */; };
 		E0E43E8827FD62CF0052BE12 /* DetailTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E43E8727FD62CF0052BE12 /* DetailTransactionViewController.swift */; };
+		E0E43E8A27FD6D010052BE12 /* AccountsToSendMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E43E8927FD6D010052BE12 /* AccountsToSendMoneyViewController.swift */; };
+		E0E43E8C27FD6EA60052BE12 /* AccountUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E43E8B27FD6EA60052BE12 /* AccountUI.swift */; };
+		E0E43E8E27FD6EF30052BE12 /* UITableCellExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E43E8D27FD6EF30052BE12 /* UITableCellExtensions.swift */; };
+		E0E43E9027FD6FB30052BE12 /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E43E8F27FD6FB30052BE12 /* AccountCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,6 +106,10 @@
 		E0E43E8227FD58C10052BE12 /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
 		E0E43E8527FD593C0052BE12 /* TransactionUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionUI.swift; sourceTree = "<group>"; };
 		E0E43E8727FD62CF0052BE12 /* DetailTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTransactionViewController.swift; sourceTree = "<group>"; };
+		E0E43E8927FD6D010052BE12 /* AccountsToSendMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsToSendMoneyViewController.swift; sourceTree = "<group>"; };
+		E0E43E8B27FD6EA60052BE12 /* AccountUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountUI.swift; sourceTree = "<group>"; };
+		E0E43E8D27FD6EF30052BE12 /* UITableCellExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableCellExtensions.swift; sourceTree = "<group>"; };
+		E0E43E8F27FD6FB30052BE12 /* AccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +225,7 @@
 				D64A70C427FA3A8A0012C7F6 /* CardViewController.swift */,
 				D64A70C627FA59160012C7F6 /* ServicesViewController.swift */,
 				E0E43E8727FD62CF0052BE12 /* DetailTransactionViewController.swift */,
+				E0E43E8927FD6D010052BE12 /* AccountsToSendMoneyViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -291,6 +300,7 @@
 				E0B0F5E027D06BAA00AFB606 /* UILabelExtensions.swift */,
 				E094B3CC27D19C00001F0BF4 /* UIViewControllerExtensions.swift */,
 				E0BCAF4227ED6C17003890A1 /* UIColorExtensions.swift */,
+				E0E43E8D27FD6EF30052BE12 /* UITableCellExtensions.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -422,6 +432,7 @@
 			isa = PBXGroup;
 			children = (
 				E0E43E8227FD58C10052BE12 /* TransactionCell.swift */,
+				E0E43E8F27FD6FB30052BE12 /* AccountCell.swift */,
 			);
 			name = TableCell;
 			sourceTree = "<group>";
@@ -430,6 +441,7 @@
 			isa = PBXGroup;
 			children = (
 				E0E43E8527FD593C0052BE12 /* TransactionUI.swift */,
+				E0E43E8B27FD6EA60052BE12 /* AccountUI.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -527,15 +539,18 @@
 				D64A70C727FA59160012C7F6 /* ServicesViewController.swift in Sources */,
 				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
 				E0E24F1827BEFAF400E629F8 /* WelcomeViewController.swift in Sources */,
+				E0E43E9027FD6FB30052BE12 /* AccountCell.swift in Sources */,
 				D64A70C527FA3A8A0012C7F6 /* CardViewController.swift in Sources */,
 				D64A70B127F5119B0012C7F6 /* Fm3ViewController.swift in Sources */,
 				D69131F927ED283A00D56CED /* HomeViewController.swift in Sources */,
 				D64A70AD27F5115B0012C7F6 /* IdentityViewController.swift in Sources */,
 				E0B0F5D427CF1CE300AFB606 /* UIViewExtensions.swift in Sources */,
+				E0E43E8E27FD6EF30052BE12 /* UITableCellExtensions.swift in Sources */,
 				D64A709727F18ABB0012C7F6 /* AddClabeViewController.swift in Sources */,
 				D64A70B327F511B50012C7F6 /* PassportViewController.swift in Sources */,
 				D64A709927F18AD90012C7F6 /* AddCardOpViewController.swift in Sources */,
 				D64A70B527F511D10012C7F6 /* PswViewController.swift in Sources */,
+				E0E43E8C27FD6EA60052BE12 /* AccountUI.swift in Sources */,
 				E0B0F5C527CF065A00AFB606 /* BaseUIViewController.swift in Sources */,
 				E0E24F1427BEFAF400E629F8 /* AppDelegate.swift in Sources */,
 				D69131FB27EE53F100D56CED /* DataViewController.swift in Sources */,
@@ -546,6 +561,7 @@
 				D64F90D227D1861F005F12F1 /* SingInViewController.swift in Sources */,
 				D69131F427ED27EF00D56CED /* SignUpViewController.swift in Sources */,
 				E0B7EF9B27FD288C00E62071 /* WelcomeViewModel.swift in Sources */,
+				E0E43E8A27FD6D010052BE12 /* AccountsToSendMoneyViewController.swift in Sources */,
 				E0B0F5DF27D068A000AFB606 /* FontSize.swift in Sources */,
 				D64A70AF27F511770012C7F6 /* IneViewController.swift in Sources */,
 				E0E24F1627BEFAF400E629F8 /* SceneDelegate.swift in Sources */,

@@ -31,12 +31,7 @@ class TransacationCell: UITableViewCell {
         self.addSubview(lHourTransaction)
         self.addSubview(lAmount)
         
-        if ((position + 1)%2 != 0) {
-            self.backgroundColor = .white
-        } else {
-            //TODO: ADD GRAY COLOR
-            self.backgroundColor = .darkGray
-        }
+        setupColorBackground(position: position)
         
         if let notNullTransaction = transactionUI {
             

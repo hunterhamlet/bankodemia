@@ -75,7 +75,8 @@ class HomeViewController: BaseUIViewController {
     }
     
     @objc private func moveToSendMoney() {
-        
+        let sendMoneyScreen = AccountsToSendMoneyViewController()
+        moveTo(screen: sendMoneyScreen, showStyle: .fullScreen)
     }
     
     @objc private func moveToRecivedMoney() {

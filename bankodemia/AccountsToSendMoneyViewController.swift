@@ -25,7 +25,7 @@ class AccountsToSendMoneyViewController: BaseUIViewController {
         view.addSubview(contactTable)
         view.addSubview(addAccount)
         
-        contactTable.addAnchorsAndSize(width: nil, height: nil, left: Dimensions.grid7, top: Dimensions.grid9, right: Dimensions.grid7, bottom: Dimensions.grid8, withAnchor: nil, relativeToView: nil)
+        contactTable.addAnchorsAndSize(width: nil, height: nil, left: Dimensions.grid0, top: Dimensions.grid9, right: Dimensions.grid0, bottom: Dimensions.grid8, withAnchor: nil, relativeToView: nil)
         addAccount.image = UIImage(named: Drawable.addNewAccount)
         addAccount.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(moveToAddAccount)))
         addAccount.addAnchorsAndSize(width: Dimensions.grid7, height: Dimensions.grid7, left: nil, top: Dimensions.grid8_3, right: Dimensions.grid7, bottom: nil, withAnchor: nil, relativeToView: nil)
@@ -64,7 +64,8 @@ extension AccountsToSendMoneyViewController: UITableViewDataSource {
 extension AccountsToSendMoneyViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Estoy en la seccion \(indexPath.section) en la celda \(indexPath.row)")
+        let transferConfirmation = TransferInfoConfirmationViewController()
+        moveTo(screen: transferConfirmation, showStyle: .fullScreen)
     }
     
 }

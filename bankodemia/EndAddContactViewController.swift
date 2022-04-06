@@ -19,12 +19,11 @@ class EndAddContactViewController: BaseUIViewController {
         super.viewDidLoad()
         hideBackButton()
         initUI()
-}
+    }
     
     private func initUI() {
-         showImageAndLegend()
-  }
-    
+        showImageAndLegend()
+    }
     
     private func showImageAndLegend() {
         
@@ -43,12 +42,11 @@ class EndAddContactViewController: BaseUIViewController {
         btContained.setTitle("Volver a Inicio", for: .normal)
         btContained.addTarget(self, action: #selector(moveToHome), for: .touchUpInside)
         btContained.addAnchorsAndSize(width: nil, height: Dimensions.btHeight, left: Dimensions.grid8, top: nil, right: Dimensions.grid8, bottom: 50, withAnchor: nil, relativeToView: nil)
-        
-}
+    }
     
     @objc private func moveToHome() {
         let homeScreen = HomeViewController()
         moveTo(screen: homeScreen, showStyle: .fullScreen)
-        
     }
+    
 }

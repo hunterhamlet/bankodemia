@@ -34,5 +34,6 @@ class Dimensions {
     static let btHeight = 42.0
     static let btHeightD = 62.0
     static let tilLargeHeight = 130.0
+    static let topImageMargin = 56.0
     
 }

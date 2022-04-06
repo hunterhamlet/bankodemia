@@ -19,9 +19,6 @@ open class BaseUIViewController: UIViewController {
     private lazy var ivMainLogo: UIImageView = UIImageView()
     private lazy var ivBack: UIImageView = UIImageView()
     private lazy var lBackTitle: UILabel = UILabel()
-    //private lazy var ivAddContact: UIImageView = UIImageView()
-    //private lazy var lEndAddContact : UILabel = UILabel()
-    //private lazy var lSuccessAddContact: UILabel = UILabel()
     
     var titleBack: String = ""
     
@@ -29,7 +26,6 @@ open class BaseUIViewController: UIViewController {
         view.backgroundColor = Theme.Color.background
         addMainLogo()
         addBackContainer()
-        //EndAddContact()
     }
 
     /*
@@ -81,6 +77,11 @@ open class BaseUIViewController: UIViewController {
      */
     func getIvMainLogo() -> UIImageView {
         return ivMainLogo
+    }
+    
+    func showTitle(title: String) {
+        lBackTitle.text = title
+        lBackTitle.isHidden = false
     }
     
     @objc private func onBackPress() {
